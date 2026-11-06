@@ -1,0 +1,288 @@
+{
+  "voice": "en-US-AndrewNeural",
+  "rate": "+2%",
+  "music": {
+    "url": "https://incompetech.com/music/royalty-free/mp3-royaltyfree/Investigations.mp3",
+    "volume": 0.07,
+    "credit": "\"Investigations\" Kevin MacLeod (incompetech.com), licensed under Creative Commons: By Attribution 4.0"
+  },
+  "countdown": 360,
+  "ticker": [
+    "INTEL −28.6% IN ONE DAY (OCT 30)",
+    "CHIP STOCKS ≈ −$1 TRILLION IN DAYS (EST.)",
+    "BIG TECH AI SPENDING 2026: $700B+",
+    "OPENAI COMPUTE COMMITMENTS ≈ $1.4 TRILLION",
+    "NVIDIA EARNINGS: NOV 17"
+  ],
+  "outputs": [
+    {
+      "name": "AI_Money_Loop_6min_3D_FIRST_MINUTE",
+      "format": "long",
+      "engine": "story3d",
+      "scenes": [
+        {
+          "text": "Meet Maya.",
+          "elements": [
+            {
+              "type": "set3d",
+              "set": "room"
+            },
+            {
+              "type": "lower",
+              "text": "Maya",
+              "sub": "an ordinary investor",
+              "x": 110,
+              "y": 840
+            }
+          ]
+        },
+        {
+          "text": "Maya has never bought a single tech stock. But like millions of people, her retirement money sits in an index fund.",
+          "elements": [
+            {
+              "type": "set3d",
+              "set": "piggy",
+              "reveal_at": [
+                "index fund"
+              ]
+            },
+            {
+              "type": "bubble",
+              "text": "Tech stocks? Not me.",
+              "x": 620,
+              "y": 300,
+              "at": "never bought",
+              "until_at": "retirement",
+              "w": 720,
+              "size": 64
+            },
+            {
+              "type": "title",
+              "text": "…but her index fund is full of *tech*",
+              "x": 960,
+              "y": 880,
+              "size": 72,
+              "w": 1500,
+              "at": "index fund"
+            }
+          ]
+        },
+        {
+          "text": "In the last week of October, she opens her app, and sees red.",
+          "elements": [
+            {
+              "type": "set3d",
+              "set": "phone",
+              "reveal_at": [
+                "opens her app",
+                "sees red"
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Chip stocks lost roughly a trillion dollars in just a few days. Intel fell almost thirty percent, in a single day.",
+          "elements": [
+            {
+              "type": "set3d",
+              "set": "crash",
+              "reveal_at": [
+                "chip stocks"
+              ]
+            },
+            {
+              "type": "stat",
+              "value": 1,
+              "x": 960,
+              "y": 250,
+              "prefix": "-$",
+              "suffix": " TRILLION",
+              "label": "chip stocks, in days (estimates)",
+              "color": "red",
+              "at": "trillion",
+              "until_at": "intel"
+            },
+            {
+              "type": "stat",
+              "value": 28.6,
+              "x": 960,
+              "y": 250,
+              "prefix": "-",
+              "suffix": "%",
+              "decimals": 1,
+              "label": "Intel, in one day",
+              "color": "red",
+              "w": 820,
+              "at": "thirty percent"
+            }
+          ]
+        },
+        {
+          "text": "So Maya asks the question nobody on TV answers. Where did all that money come from in the first place?",
+          "elements": [
+            {
+              "type": "set3d",
+              "set": "question"
+            },
+            {
+              "type": "bubble",
+              "text": "Where did all that money COME FROM?",
+              "x": 640,
+              "y": 280,
+              "thought": true,
+              "at": "where did",
+              "w": 900,
+              "size": 64
+            }
+          ]
+        },
+        {
+          "text": "To find out, we'll follow one dollar.",
+          "elements": [
+            {
+              "type": "set3d",
+              "set": "dollar"
+            },
+            {
+              "type": "title",
+              "text": "Follow *one dollar*",
+              "x": 960,
+              "y": 200,
+              "size": 110,
+              "at": "follow"
+            }
+          ]
+        },
+        {
+          "text": "Our dollar starts at Big Tech. This year, Microsoft, Alphabet, Amazon and Meta plan to spend more than seven hundred billion dollars.",
+          "elements": [
+            {
+              "type": "set3d",
+              "set": "city",
+              "reveal_at": [
+                "microsoft",
+                "alphabet",
+                "amazon",
+                "meta plan",
+                "seven hundred"
+              ]
+            },
+            {
+              "type": "title",
+              "text": "It starts at *Big Tech*",
+              "x": 960,
+              "y": 150,
+              "size": 84,
+              "until_at": "microsoft"
+            },
+            {
+              "type": "lower",
+              "text": "Microsoft",
+              "x": 110,
+              "y": 840,
+              "at": "microsoft",
+              "until_at": "alphabet"
+            },
+            {
+              "type": "lower",
+              "text": "Alphabet",
+              "x": 110,
+              "y": 840,
+              "at": "alphabet",
+              "until_at": "amazon"
+            },
+            {
+              "type": "lower",
+              "text": "Amazon",
+              "x": 110,
+              "y": 840,
+              "at": "amazon",
+              "until_at": "meta plan"
+            },
+            {
+              "type": "lower",
+              "text": "Meta",
+              "x": 110,
+              "y": 840,
+              "at": "meta plan",
+              "until_at": "seven hundred"
+            },
+            {
+              "type": "stat",
+              "value": 700,
+              "x": 960,
+              "y": 210,
+              "prefix": "$",
+              "suffix": "B+",
+              "label": "Big Tech spending, 2026",
+              "at": "seven hundred"
+            }
+          ]
+        },
+        {
+          "text": "Most of it goes to data centers, and the chips inside them.",
+          "elements": [
+            {
+              "type": "set3d",
+              "set": "datacenter",
+              "reveal_at": [
+                "data centers"
+              ]
+            },
+            {
+              "type": "caption",
+              "text": "data centers… and the chips inside them",
+              "x": 960,
+              "y": 900,
+              "size": 56,
+              "at": "data centers"
+            }
+          ]
+        },
+        {
+          "text": "So our dollar lands at the company that makes those chips: Nvidia.",
+          "elements": [
+            {
+              "type": "set3d",
+              "set": "nvidia",
+              "reveal_at": [
+                "lands"
+              ]
+            },
+            {
+              "type": "lower",
+              "text": "Nvidia",
+              "sub": "makes the chips most AI runs on",
+              "x": 110,
+              "y": 150,
+              "at": "nvidia"
+            }
+          ]
+        },
+        {
+          "text": "And that's where the story gets strange. Because Nvidia sends part of that dollar right back out.",
+          "elements": [
+            {
+              "type": "set3d",
+              "set": "boomerang",
+              "reveal_at": [
+                "sends",
+                "strange"
+              ]
+            },
+            {
+              "type": "title",
+              "text": "Wait… it goes *back out*?",
+              "x": 760,
+              "y": 880,
+              "size": 80,
+              "w": 1250,
+              "hl": "red",
+              "at": "right back"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,923 @@
+{
+  "voice": "en-US-AndrewNeural",
+  "rate": "-2%",
+  "music": {
+    "url": "https://incompetech.com/music/royalty-free/mp3-royaltyfree/Investigations.mp3",
+    "volume": 0.07,
+    "credit": "\"Investigations\" Kevin MacLeod (incompetech.com), licensed under Creative Commons: By Attribution 4.0"
+  },
+  "outputs": [
+    {
+      "name": "DOC_A_voice_andrew",
+      "format": "long",
+      "engine": "doc",
+      "scenes": [
+        {
+          "chapter": "The trillion-dollar week",
+          "text": "In just a few days at the end of October, chip stocks lost roughly a trillion dollars in value. Intel fell almost thirty percent in a single day, its worst day in decades.",
+          "elements": [
+            {
+              "type": "shot",
+              "q": "stock market sell-off red",
+              "pixabay_id": 338956,
+              "move": "in",
+              "url": "https://cdn.pixabay.com/video/2026/03/08/338956_large.mp4",
+              "clipSeconds": 8,
+              "credit": "Pixabay #338956 by MrWashingt0n",
+              "thumb": "https://cdn.pixabay.com/video/2026/03/08/338956_large.jpg",
+              "kind": "video"
+            },
+            {
+              "type": "lower",
+              "text": "Late October 2026",
+              "sub": "AI chip stocks",
+              "x": 110,
+              "y": 110
+            },
+            {
+              "type": "shot",
+              "img": "New York Stock Exchange",
+              "at": "chip stocks",
+              "move": "left",
+              "dim": 0.35,
+              "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/New_York_Stock_Exchange_August_2017_02.jpg/3840px-New_York_Stock_Exchange_August_2017_02.jpg",
+              "credit": "\"New York Stock Exchange August 2017 02\" by Arild Vågen, CC BY-SA 4.0, via wikimedia",
+              "thumb": "https://api.openverse.org/v1/images/42a02058-d721-467b-8e25-8b1b75f29adf/thumb/",
+              "kind": "image"
+            },
+            {
+              "type": "stat",
+              "value": 1,
+              "x": 960,
+              "y": 560,
+              "prefix": "-$",
+              "suffix": " TRILLION",
+              "label": "chip stocks, in days (estimates)",
+              "color": "red",
+              "at": "lost",
+              "until_at": "intel"
+            },
+            {
+              "type": "shot",
+              "img": "Intel headquarters",
+              "at": "intel",
+              "move": "right",
+              "dim": 0.3,
+              "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Intel_Headquarters_in_2023.jpg/3840px-Intel_Headquarters_in_2023.jpg",
+              "credit": "\"Intel Headquarters in 2023\" by Coolcaesar, CC BY-SA 4.0, via wikimedia",
+              "thumb": "https://api.openverse.org/v1/images/eecbcb54-06d4-49f4-9d15-f211c571d07e/thumb/",
+              "kind": "image"
+            },
+            {
+              "type": "headline",
+              "source": "CNBC · Oct 29, 2026",
+              "text": "Intel stock plunges as chipmaker issues weak forecast",
+              "x": 960,
+              "y": 430,
+              "at": "intel",
+              "w": 1150
+            },
+            {
+              "type": "stat",
+              "value": 28.6,
+              "x": 960,
+              "y": 820,
+              "prefix": "-",
+              "suffix": "%",
+              "decimals": 1,
+              "label": "Intel, in one day: worst in decades",
+              "color": "red",
+              "w": 900,
+              "size": 150,
+              "at": "single day"
+            }
+          ]
+        },
+        {
+          "text": "But the strange part isn't the crash. It's where a lot of that money came from in the first place. Because when you follow it, some of it goes around in a circle.",
+          "elements": [
+            {
+              "type": "shot",
+              "q": "money counting dollar bills",
+              "move": "in",
+              "dim": 0.3,
+              "url": "https://cdn.pixabay.com/video/2023/03/06/153460-805688493_large.mp4",
+              "clipSeconds": 9,
+              "credit": "Pixabay #153460 by 34168960",
+              "thumb": "https://cdn.pixabay.com/video/2023/03/06/153460-805688493_large.jpg",
+              "kind": "video"
+            },
+            {
+              "type": "title",
+              "text": "The strange part isn't the *crash*",
+              "x": 960,
+              "y": 520,
+              "size": 92,
+              "at": "strange",
+              "until_at": "came from"
+            },
+            {
+              "type": "shot",
+              "q": "cash flow bank transfer money",
+              "at": "came from",
+              "move": "left",
+              "dim": 0.4,
+              "url": "https://cdn.pixabay.com/video/2019/01/20/20857-312437286_large.mp4",
+              "clipSeconds": 23,
+              "credit": "Pixabay #20857 by RoyBuri",
+              "thumb": "https://cdn.pixabay.com/video/2019/01/20/20857-312437286_large.jpg",
+              "kind": "video"
+            },
+            {
+              "type": "title",
+              "text": "Follow the *money*",
+              "x": 960,
+              "y": 500,
+              "size": 120,
+              "at": "follow it"
+            },
+            {
+              "type": "caption",
+              "text": "some of it goes around in a circle",
+              "x": 960,
+              "y": 650,
+              "size": 48,
+              "at": "goes around"
+            }
+          ]
+        },
+        {
+          "text": "By the end of this video, you'll understand the loop, why it made the AI boom look even bigger than it was, and the three signals that tell you whether this ends in a soft landing or a real bust.",
+          "elements": [
+            {
+              "type": "shot",
+              "q": "artificial intelligence robot hand",
+              "move": "in",
+              "dim": 0.45,
+              "url": "https://cdn.pixabay.com/video/2025/05/17/279625_large.mp4",
+              "clipSeconds": 12,
+              "credit": "Pixabay #279625 by fspik_now",
+              "thumb": "https://cdn.pixabay.com/video/2025/05/17/279625_large.jpg",
+              "kind": "video"
+            },
+            {
+              "type": "title",
+              "text": "In this video",
+              "x": 960,
+              "y": 200,
+              "size": 64,
+              "until_at": "soft landing"
+            },
+            {
+              "type": "title",
+              "text": "1  How the *money loop* works",
+              "x": 900,
+              "y": 400,
+              "size": 64,
+              "w": 1500,
+              "align": "left",
+              "at": "the loop",
+              "until_at": "soft landing"
+            },
+            {
+              "type": "shot",
+              "img": "data center",
+              "at": "bigger",
+              "move": "right",
+              "dim": 0.55,
+              "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/EFF_photograph_of_NSA%27s_Utah_Data_Center.jpg/3840px-EFF_photograph_of_NSA%27s_Utah_Data_Center.jpg",
+              "credit": "\"EFF photograph of NSA's Utah Data Center\" by User:ParkerHiggins (Electronic Frontier Foundation), CC0 1.0, via wikimedia",
+              "thumb": "https://api.openverse.org/v1/images/b08dbf02-5f30-422b-a9e5-08c328c030a9/thumb/",
+              "kind": "image"
+            },
+            {
+              "type": "title",
+              "text": "2  Why the boom looked *bigger*",
+              "x": 900,
+              "y": 540,
+              "size": 64,
+              "w": 1500,
+              "align": "left",
+              "at": "bigger",
+              "until_at": "soft landing"
+            },
+            {
+              "type": "title",
+              "text": "3  Three signals to *watch*",
+              "x": 900,
+              "y": 680,
+              "size": 64,
+              "w": 1500,
+              "align": "left",
+              "at": "three signals",
+              "until_at": "soft landing"
+            },
+            {
+              "type": "shot",
+              "q": "airplane landing",
+              "at": "soft landing",
+              "pick": 1,
+              "move": "in",
+              "dim": 0.55,
+              "url": "https://cdn.pixabay.com/video/2015/08/09/160-135787647_large.mp4",
+              "clipSeconds": 16,
+              "credit": "Pixabay #160 by Vimeo-Free-Videos",
+              "thumb": "https://cdn.pixabay.com/video/2015/08/09/160-135787647_large.jpg",
+              "kind": "video"
+            },
+            {
+              "type": "title",
+              "text": "Soft landing, or real *bust*?",
+              "x": 960,
+              "y": 540,
+              "size": 96,
+              "hl": "red",
+              "at": "soft landing"
+            }
+          ]
+        },
+        {
+          "chapter": "The biggest building spree in history",
+          "text": "Start with the spending. Microsoft, Alphabet, Amazon and Meta are on track to spend more than seven hundred billion dollars this year, mostly on data centers and the chips inside them.",
+          "elements": [
+            {
+              "type": "shot",
+              "q": "data center server room",
+              "move": "in",
+              "dim": 0.35,
+              "url": "https://cdn.pixabay.com/video/2026/10/02/380334_large.mp4",
+              "clipSeconds": 8,
+              "credit": "Pixabay #380334 by MrWashingt0n",
+              "thumb": "https://cdn.pixabay.com/video/2026/10/02/380334_large.jpg",
+              "kind": "video"
+            },
+            {
+              "type": "title",
+              "text": "Start with the *spending*",
+              "x": 960,
+              "y": 520,
+              "size": 100,
+              "at": "start with",
+              "until_at": "microsoft"
+            },
+            {
+              "type": "shot",
+              "img": "Microsoft headquarters Redmond",
+              "at": "microsoft",
+              "move": "left",
+              "dim": 0.3,
+              "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Building92microsoft.jpg/3840px-Building92microsoft.jpg",
+              "credit": "\"File:Building92microsoft.jpg\" by Coolcaesar, CC BY-SA 4.0, via wikimedia",
+              "thumb": "https://api.openverse.org/v1/images/a8963624-3f69-47fc-982f-00dff4f46227/thumb/",
+              "kind": "image"
+            },
+            {
+              "type": "lower",
+              "text": "Microsoft",
+              "x": 110,
+              "y": 880,
+              "at": "microsoft",
+              "until_at": "alphabet"
+            },
+            {
+              "type": "shot",
+              "img": "Googleplex",
+              "at": "alphabet",
+              "move": "right",
+              "dim": 0.3,
+              "url": "https://upload.wikimedia.org/wikipedia/commons/3/32/Googleplex_HQ_%28cropped%29.jpg",
+              "credit": "\"Googleplex HQ (cropped)\" by The Pancake of Heaven!, CC BY-SA 4.0, via wikimedia",
+              "thumb": "https://api.openverse.org/v1/images/85a2e487-6d81-4001-96b3-2648eec50477/thumb/",
+              "kind": "image"
+            },
+            {
+              "type": "lower",
+              "text": "Alphabet",
+              "x": 110,
+              "y": 880,
+              "at": "alphabet",
+              "until_at": "amazon"
+            },
+            {
+              "type": "shot",
+              "img": "Amazon Spheres Seattle",
+              "at": "amazon",
+              "move": "left",
+              "dim": 0.3,
+              "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/2024-12-21%2C_Amazon_Spheres_%28Seattle%29%2C_170559.jpg/3840px-2024-12-21%2C_Amazon_Spheres_%28Seattle%29%2C_170559.jpg",
+              "credit": "\"2024-12-21, Amazon Spheres (Seattle), 170559\" by Steven Pavlov, CC BY-SA 4.0, via wikimedia",
+              "thumb": "https://api.openverse.org/v1/images/0223f13d-a1c0-46f0-92b6-cf1410742909/thumb/",
+              "kind": "image"
+            },
+            {
+              "type": "lower",
+              "text": "Amazon",
+              "x": 110,
+              "y": 880,
+              "at": "amazon",
+              "until_at": "meta are"
+            },
+            {
+              "type": "shot",
+              "img": "Meta headquarters Menlo Park",
+              "at": "meta are",
+              "move": "right",
+              "dim": 0.3,
+              "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Meta_Platforms_Headquarters_Menlo_Park_California.jpg/3840px-Meta_Platforms_Headquarters_Menlo_Park_California.jpg",
+              "credit": "\"Meta Platforms Headquarters Menlo Park California\" by LPS.1, CC0 1.0, via wikimedia",
+              "thumb": "https://api.openverse.org/v1/images/b33ff932-f665-4e87-ae66-464ce247a7fc/thumb/",
+              "kind": "image"
+            },
+            {
+              "type": "lower",
+              "text": "Meta",
+              "x": 110,
+              "y": 880,
+              "at": "meta are",
+              "until_at": "seven hundred"
+            },
+            {
+              "type": "shot",
+              "q": "server racks data center lights",
+              "at": "seven hundred",
+              "move": "in",
+              "dim": 0.4,
+              "url": "https://cdn.pixabay.com/video/2018/03/09/14900-259623335_large.mp4",
+              "clipSeconds": 24,
+              "credit": "Pixabay #14900 by cipnt",
+              "thumb": "https://cdn.pixabay.com/video/2018/03/09/14900-259623335_large.jpg",
+              "kind": "video"
+            },
+            {
+              "type": "stat",
+              "value": 700,
+              "x": 960,
+              "y": 500,
+              "prefix": "$",
+              "suffix": "B+",
+              "label": "Big Tech spending, 2026",
+              "color": "yellow",
+              "at": "seven hundred"
+            },
+            {
+              "type": "shot",
+              "q": "computer chip macro",
+              "at": "chips inside",
+              "move": "in",
+              "dim": 0.45,
+              "url": "https://cdn.pixabay.com/video/2017/12/18/13461-248644882_large.mp4",
+              "clipSeconds": 11,
+              "credit": "Pixabay #13461 by onijake",
+              "thumb": "https://cdn.pixabay.com/video/2017/12/18/13461-248644882_large.jpg",
+              "kind": "video"
+            },
+            {
+              "type": "caption",
+              "text": "mostly data centers, and the chips inside them",
+              "x": 960,
+              "y": 760,
+              "size": 46,
+              "at": "data centers"
+            }
+          ]
+        },
+        {
+          "text": "Alphabet alone guided to around two hundred billion. Meta, up to one hundred forty-five. Microsoft, about one hundred seventy. And next year, the total is expected to top one trillion dollars.",
+          "elements": [
+            {
+              "type": "shot",
+              "q": "construction site crane timelapse",
+              "move": "in",
+              "dim": 0.5,
+              "url": "https://cdn.pixabay.com/video/2016/07/08/3741-174188012_large.mp4",
+              "clipSeconds": 20,
+              "credit": "Pixabay #3741 by bellergy",
+              "thumb": "https://cdn.pixabay.com/video/2016/07/08/3741-174188012_large.jpg",
+              "kind": "video"
+            },
+            {
+              "type": "chart",
+              "data": [
+                {
+                  "label": "Alphabet",
+                  "value": 200,
+                  "valueLabel": "~$200B",
+                  "color": "blue"
+                },
+                {
+                  "label": "Meta",
+                  "value": 145,
+                  "valueLabel": "≤ $145B",
+                  "color": "yellow"
+                },
+                {
+                  "label": "Microsoft",
+                  "value": 170,
+                  "valueLabel": "~$170B",
+                  "color": "green"
+                }
+              ],
+              "title": "2026 spending plans",
+              "x": 960,
+              "y": 540,
+              "w": 1300,
+              "h": 640,
+              "dur": 5.5,
+              "at": "alphabet alone",
+              "until_at": "next year"
+            },
+            {
+              "type": "shot",
+              "q": "city skyline night timelapse",
+              "at": "next year",
+              "move": "in",
+              "dim": 0.45,
+              "url": "https://cdn.pixabay.com/video/2025/12/29/324817_large.mp4",
+              "clipSeconds": 8,
+              "credit": "Pixabay #324817 by Solarselle77",
+              "thumb": "https://cdn.pixabay.com/video/2025/12/29/324817_large.jpg",
+              "kind": "video"
+            },
+            {
+              "type": "stat",
+              "value": 1,
+              "x": 960,
+              "y": 520,
+              "prefix": "$",
+              "suffix": " TRILLION+",
+              "label": "expected next year",
+              "color": "yellow",
+              "at": "next year"
+            },
+            {
+              "type": "caption",
+              "text": "Sources: company earnings guidance, CNBC",
+              "x": 960,
+              "y": 1010,
+              "size": 26,
+              "opacity": 0.7,
+              "at": "next year"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "DOC_B_voice_kokoro",
+      "format": "long",
+      "engine": "doc",
+      "tts": "kokoro",
+      "voice": "am_michael",
+      "scenes": [
+        {
+          "chapter": "The trillion-dollar week",
+          "text": "In just a few days at the end of October, chip stocks lost roughly a trillion dollars in value. Intel fell almost thirty percent in a single day, its worst day in decades.",
+          "elements": [
+            {
+              "type": "shot",
+              "q": "stock market sell-off red",
+              "pixabay_id": 338956,
+              "move": "in",
+              "url": "https://cdn.pixabay.com/video/2026/03/08/338956_large.mp4",
+              "clipSeconds": 8,
+              "credit": "Pixabay #338956 by MrWashingt0n",
+              "thumb": "https://cdn.pixabay.com/video/2026/03/08/338956_large.jpg",
+              "kind": "video"
+            },
+            {
+              "type": "lower",
+              "text": "Late October 2026",
+              "sub": "AI chip stocks",
+              "x": 110,
+              "y": 110
+            },
+            {
+              "type": "shot",
+              "img": "New York Stock Exchange",
+              "at": "chip stocks",
+              "move": "left",
+              "dim": 0.35,
+              "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/New_York_Stock_Exchange_August_2017_02.jpg/3840px-New_York_Stock_Exchange_August_2017_02.jpg",
+              "credit": "\"New York Stock Exchange August 2017 02\" by Arild Vågen, CC BY-SA 4.0, via wikimedia",
+              "thumb": "https://api.openverse.org/v1/images/42a02058-d721-467b-8e25-8b1b75f29adf/thumb/",
+              "kind": "image"
+            },
+            {
+              "type": "stat",
+              "value": 1,
+              "x": 960,
+              "y": 560,
+              "prefix": "-$",
+              "suffix": " TRILLION",
+              "label": "chip stocks, in days (estimates)",
+              "color": "red",
+              "at": "lost",
+              "until_at": "intel"
+            },
+            {
+              "type": "shot",
+              "img": "Intel headquarters",
+              "at": "intel",
+              "move": "right",
+              "dim": 0.3,
+              "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Intel_Headquarters_in_2023.jpg/3840px-Intel_Headquarters_in_2023.jpg",
+              "credit": "\"Intel Headquarters in 2023\" by Coolcaesar, CC BY-SA 4.0, via wikimedia",
+              "thumb": "https://api.openverse.org/v1/images/eecbcb54-06d4-49f4-9d15-f211c571d07e/thumb/",
+              "kind": "image"
+            },
+            {
+              "type": "headline",
+              "source": "CNBC · Oct 29, 2026",
+              "text": "Intel stock plunges as chipmaker issues weak forecast",
+              "x": 960,
+              "y": 430,
+              "at": "intel",
+              "w": 1150
+            },
+            {
+              "type": "stat",
+              "value": 28.6,
+              "x": 960,
+              "y": 820,
+              "prefix": "-",
+              "suffix": "%",
+              "decimals": 1,
+              "label": "Intel, in one day: worst in decades",
+              "color": "red",
+              "w": 900,
+              "size": 150,
+              "at": "single day"
+            }
+          ]
+        },
+        {
+          "text": "But the strange part isn't the crash. It's where a lot of that money came from in the first place. Because when you follow it, some of it goes around in a circle.",
+          "elements": [
+            {
+              "type": "shot",
+              "q": "money counting dollar bills",
+              "move": "in",
+              "dim": 0.3,
+              "url": "https://cdn.pixabay.com/video/2023/03/06/153460-805688493_large.mp4",
+              "clipSeconds": 9,
+              "credit": "Pixabay #153460 by 34168960",
+              "thumb": "https://cdn.pixabay.com/video/2023/03/06/153460-805688493_large.jpg",
+              "kind": "video"
+            },
+            {
+              "type": "title",
+              "text": "The strange part isn't the *crash*",
+              "x": 960,
+              "y": 520,
+              "size": 92,
+              "at": "strange",
+              "until_at": "came from"
+            },
+            {
+              "type": "shot",
+              "q": "cash flow bank transfer money",
+              "at": "came from",
+              "move": "left",
+              "dim": 0.4,
+              "url": "https://cdn.pixabay.com/video/2019/01/20/20857-312437286_large.mp4",
+              "clipSeconds": 23,
+              "credit": "Pixabay #20857 by RoyBuri",
+              "thumb": "https://cdn.pixabay.com/video/2019/01/20/20857-312437286_large.jpg",
+              "kind": "video"
+            },
+            {
+              "type": "title",
+              "text": "Follow the *money*",
+              "x": 960,
+              "y": 500,
+              "size": 120,
+              "at": "follow it"
+            },
+            {
+              "type": "caption",
+              "text": "some of it goes around in a circle",
+              "x": 960,
+              "y": 650,
+              "size": 48,
+              "at": "goes around"
+            }
+          ]
+        },
+        {
+          "text": "By the end of this video, you'll understand the loop, why it made the AI boom look even bigger than it was, and the three signals that tell you whether this ends in a soft landing or a real bust.",
+          "elements": [
+            {
+              "type": "shot",
+              "q": "artificial intelligence robot hand",
+              "move": "in",
+              "dim": 0.45,
+              "url": "https://cdn.pixabay.com/video/2025/05/17/279625_large.mp4",
+              "clipSeconds": 12,
+              "credit": "Pixabay #279625 by fspik_now",
+              "thumb": "https://cdn.pixabay.com/video/2025/05/17/279625_large.jpg",
+              "kind": "video"
+            },
+            {
+              "type": "title",
+              "text": "In this video",
+              "x": 960,
+              "y": 200,
+              "size": 64,
+              "until_at": "soft landing"
+            },
+            {
+              "type": "title",
+              "text": "1  How the *money loop* works",
+              "x": 900,
+              "y": 400,
+              "size": 64,
+              "w": 1500,
+              "align": "left",
+              "at": "the loop",
+              "until_at": "soft landing"
+            },
+            {
+              "type": "shot",
+              "img": "data center",
+              "at": "bigger",
+              "move": "right",
+              "dim": 0.55,
+              "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/EFF_photograph_of_NSA%27s_Utah_Data_Center.jpg/3840px-EFF_photograph_of_NSA%27s_Utah_Data_Center.jpg",
+              "credit": "\"EFF photograph of NSA's Utah Data Center\" by User:ParkerHiggins (Electronic Frontier Foundation), CC0 1.0, via wikimedia",
+              "thumb": "https://api.openverse.org/v1/images/b08dbf02-5f30-422b-a9e5-08c328c030a9/thumb/",
+              "kind": "image"
+            },
+            {
+              "type": "title",
+              "text": "2  Why the boom looked *bigger*",
+              "x": 900,
+              "y": 540,
+              "size": 64,
+              "w": 1500,
+              "align": "left",
+              "at": "bigger",
+              "until_at": "soft landing"
+            },
+            {
+              "type": "title",
+              "text": "3  Three signals to *watch*",
+              "x": 900,
+              "y": 680,
+              "size": 64,
+              "w": 1500,
+              "align": "left",
+              "at": "three signals",
+              "until_at": "soft landing"
+            },
+            {
+              "type": "shot",
+              "q": "airplane landing",
+              "at": "soft landing",
+              "pick": 1,
+              "move": "in",
+              "dim": 0.55,
+              "url": "https://cdn.pixabay.com/video/2015/08/09/160-135787647_large.mp4",
+              "clipSeconds": 16,
+              "credit": "Pixabay #160 by Vimeo-Free-Videos",
+              "thumb": "https://cdn.pixabay.com/video/2015/08/09/160-135787647_large.jpg",
+              "kind": "video"
+            },
+            {
+              "type": "title",
+              "text": "Soft landing, or real *bust*?",
+              "x": 960,
+              "y": 540,
+              "size": 96,
+              "hl": "red",
+              "at": "soft landing"
+            }
+          ]
+        },
+        {
+          "chapter": "The biggest building spree in history",
+          "text": "Start with the spending. Microsoft, Alphabet, Amazon and Meta are on track to spend more than seven hundred billion dollars this year, mostly on data centers and the chips inside them.",
+          "elements": [
+            {
+              "type": "shot",
+              "q": "data center server room",
+              "move": "in",
+              "dim": 0.35,
+              "url": "https://cdn.pixabay.com/video/2026/10/02/380334_large.mp4",
+              "clipSeconds": 8,
+              "credit": "Pixabay #380334 by MrWashingt0n",
+              "thumb": "https://cdn.pixabay.com/video/2026/10/02/380334_large.jpg",
+              "kind": "video"
+            },
+            {
+              "type": "title",
+              "text": "Start with the *spending*",
+              "x": 960,
+              "y": 520,
+              "size": 100,
+              "at": "start with",
+              "until_at": "microsoft"
+            },
+            {
+              "type": "shot",
+              "img": "Microsoft headquarters Redmond",
+              "at": "microsoft",
+              "move": "left",
+              "dim": 0.3,
+              "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Building92microsoft.jpg/3840px-Building92microsoft.jpg",
+              "credit": "\"File:Building92microsoft.jpg\" by Coolcaesar, CC BY-SA 4.0, via wikimedia",
+              "thumb": "https://api.openverse.org/v1/images/a8963624-3f69-47fc-982f-00dff4f46227/thumb/",
+              "kind": "image"
+            },
+            {
+              "type": "lower",
+              "text": "Microsoft",
+              "x": 110,
+              "y": 880,
+              "at": "microsoft",
+              "until_at": "alphabet"
+            },
+            {
+              "type": "shot",
+              "img": "Googleplex",
+              "at": "alphabet",
+              "move": "right",
+              "dim": 0.3,
+              "url": "https://upload.wikimedia.org/wikipedia/commons/3/32/Googleplex_HQ_%28cropped%29.jpg",
+              "credit": "\"Googleplex HQ (cropped)\" by The Pancake of Heaven!, CC BY-SA 4.0, via wikimedia",
+              "thumb": "https://api.openverse.org/v1/images/85a2e487-6d81-4001-96b3-2648eec50477/thumb/",
+              "kind": "image"
+            },
+            {
+              "type": "lower",
+              "text": "Alphabet",
+              "x": 110,
+              "y": 880,
+              "at": "alphabet",
+              "until_at": "amazon"
+            },
+            {
+              "type": "shot",
+              "img": "Amazon Spheres Seattle",
+              "at": "amazon",
+              "move": "left",
+              "dim": 0.3,
+              "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/2024-12-21%2C_Amazon_Spheres_%28Seattle%29%2C_170559.jpg/3840px-2024-12-21%2C_Amazon_Spheres_%28Seattle%29%2C_170559.jpg",
+              "credit": "\"2024-12-21, Amazon Spheres (Seattle), 170559\" by Steven Pavlov, CC BY-SA 4.0, via wikimedia",
+              "thumb": "https://api.openverse.org/v1/images/0223f13d-a1c0-46f0-92b6-cf1410742909/thumb/",
+              "kind": "image"
+            },
+            {
+              "type": "lower",
+              "text": "Amazon",
+              "x": 110,
+              "y": 880,
+              "at": "amazon",
+              "until_at": "meta are"
+            },
+            {
+              "type": "shot",
+              "img": "Meta headquarters Menlo Park",
+              "at": "meta are",
+              "move": "right",
+              "dim": 0.3,
+              "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Meta_Platforms_Headquarters_Menlo_Park_California.jpg/3840px-Meta_Platforms_Headquarters_Menlo_Park_California.jpg",
+              "credit": "\"Meta Platforms Headquarters Menlo Park California\" by LPS.1, CC0 1.0, via wikimedia",
+              "thumb": "https://api.openverse.org/v1/images/b33ff932-f665-4e87-ae66-464ce247a7fc/thumb/",
+              "kind": "image"
+            },
+            {
+              "type": "lower",
+              "text": "Meta",
+              "x": 110,
+              "y": 880,
+              "at": "meta are",
+              "until_at": "seven hundred"
+            },
+            {
+              "type": "shot",
+              "q": "server racks data center lights",
+              "at": "seven hundred",
+              "move": "in",
+              "dim": 0.4,
+              "url": "https://cdn.pixabay.com/video/2018/03/09/14900-259623335_large.mp4",
+              "clipSeconds": 24,
+              "credit": "Pixabay #14900 by cipnt",
+              "thumb": "https://cdn.pixabay.com/video/2018/03/09/14900-259623335_large.jpg",
+              "kind": "video"
+            },
+            {
+              "type": "stat",
+              "value": 700,
+              "x": 960,
+              "y": 500,
+              "prefix": "$",
+              "suffix": "B+",
+              "label": "Big Tech spending, 2026",
+              "color": "yellow",
+              "at": "seven hundred"
+            },
+            {
+              "type": "shot",
+              "q": "computer chip macro",
+              "at": "chips inside",
+              "move": "in",
+              "dim": 0.45,
+              "url": "https://cdn.pixabay.com/video/2017/12/18/13461-248644882_large.mp4",
+              "clipSeconds": 11,
+              "credit": "Pixabay #13461 by onijake",
+              "thumb": "https://cdn.pixabay.com/video/2017/12/18/13461-248644882_large.jpg",
+              "kind": "video"
+            },
+            {
+              "type": "caption",
+              "text": "mostly data centers, and the chips inside them",
+              "x": 960,
+              "y": 760,
+              "size": 46,
+              "at": "data centers"
+            }
+          ]
+        },
+        {
+          "text": "Alphabet alone guided to around two hundred billion. Meta, up to one hundred forty-five. Microsoft, about one hundred seventy. And next year, the total is expected to top one trillion dollars.",
+          "elements": [
+            {
+              "type": "shot",
+              "q": "construction site crane timelapse",
+              "move": "in",
+              "dim": 0.5,
+              "url": "https://cdn.pixabay.com/video/2016/07/08/3741-174188012_large.mp4",
+              "clipSeconds": 20,
+              "credit": "Pixabay #3741 by bellergy",
+              "thumb": "https://cdn.pixabay.com/video/2016/07/08/3741-174188012_large.jpg",
+              "kind": "video"
+            },
+            {
+              "type": "chart",
+              "data": [
+                {
+                  "label": "Alphabet",
+                  "value": 200,
+                  "valueLabel": "~$200B",
+                  "color": "blue"
+                },
+                {
+                  "label": "Meta",
+                  "value": 145,
+                  "valueLabel": "≤ $145B",
+                  "color": "yellow"
+                },
+                {
+                  "label": "Microsoft",
+                  "value": 170,
+                  "valueLabel": "~$170B",
+                  "color": "green"
+                }
+              ],
+              "title": "2026 spending plans",
+              "x": 960,
+              "y": 540,
+              "w": 1300,
+              "h": 640,
+              "dur": 5.5,
+              "at": "alphabet alone",
+              "until_at": "next year"
+            },
+            {
+              "type": "shot",
+              "q": "city skyline night timelapse",
+              "at": "next year",
+              "move": "in",
+              "dim": 0.45,
+              "url": "https://cdn.pixabay.com/video/2025/12/29/324817_large.mp4",
+              "clipSeconds": 8,
+              "credit": "Pixabay #324817 by Solarselle77",
+              "thumb": "https://cdn.pixabay.com/video/2025/12/29/324817_large.jpg",
+              "kind": "video"
+            },
+            {
+              "type": "stat",
+              "value": 1,
+              "x": 960,
+              "y": 520,
+              "prefix": "$",
+              "suffix": " TRILLION+",
+              "label": "expected next year",
+              "color": "yellow",
+              "at": "next year"
+            },
+            {
+              "type": "caption",
+              "text": "Sources: company earnings guidance, CNBC",
+              "x": 960,
+              "y": 1010,
+              "size": 26,
+              "opacity": 0.7,
+              "at": "next year"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

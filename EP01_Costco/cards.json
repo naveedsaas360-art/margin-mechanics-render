@@ -1,0 +1,16 @@
+[
+  {"file":"c_machine.png","kicker":"TODAY","headline":"INSIDE THE MACHINE"},
+  {"file":"c_normal.png","kicker":"MOST STORES","headline":"BUY. MARK IT UP. SELL.","sub":"Profit comes from every item on the shelf.","color":"white"},
+  {"file":"c_paid.png","kicker":"WHAT A MEMBERSHIP COSTS COSTCO TO DELIVER","headline":"ALMOST NOTHING","sub":"Warehouse built  ·  Staff paid  ·  Lights on","color":"green"},
+  {"file":"c_whypay.png","headline":"WHY PAY JUST TO GO SHOPPING?"},
+  {"file":"c_skus.png","kicker":"PRODUCTS ON THE SHELF","headline":"~4,000","sub":"vs. tens of thousands in a typical supermarket"},
+  {"file":"c_makeit.png","headline":"WON'T HIT THE PRICE?","sub":"Costco makes it itself.","color":"red"},
+  {"file":"c_kirkland.png","kicker":"COSTCO'S OWN BRAND","headline":"KIRKLAND SIGNATURE","sub":"Better margin  ·  Leverage over big brands  ·  Only at Costco"},
+  {"file":"c_hotdog.png","kicker":"HOT DOG + SODA","headline":"$1.50","sub":"The same price since 1985","color":"green"},
+  {"file":"c_promise.png","headline":"NOT A PRODUCT. A PROMISE.","sub":"\"We will not squeeze you.\""},
+  {"file":"c_addup.png","headline":"SO HOW DOES THAT ADD UP TO $8.1 BILLION?","color":"white"},
+  {"file":"c_copy.png","kicker":"WHY RIVALS CAN'T COPY IT","headline":"SCALE + TRUST + PATIENCE","sub":"Thin margins only work if you're enormous."},
+  {"file":"c_risks.png","kicker":"THE RISKS","headline":"RENEWALS\nFEE HIKES\nONLINE","sub":"If renewals slip, the most profitable part shrinks fast.","color":"red"},
+  {"file":"c_takeaway.png","kicker":"THE TAKEAWAY","headline":"THE STORE IS THE BAIT. THE MEMBERSHIP IS THE BUSINESS."},
+  {"file":"c_next.png","kicker":"NEXT BREAKDOWN","headline":"AIRLINES ARE SECRETLY CREDIT CARD COMPANIES","sub":"Subscribe so the machine keeps running.","color":"white"}
+]

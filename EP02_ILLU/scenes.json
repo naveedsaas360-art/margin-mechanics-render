@@ -1,0 +1,413 @@
+{
+  "voice": "en-US-AndrewNeural",
+  "rate": "+2%",
+  "music": {
+    "url": "https://incompetech.com/music/royalty-free/mp3-royaltyfree/Investigations.mp3",
+    "volume": 0.08,
+    "credit": "\"Investigations\" Kevin MacLeod (incompetech.com), licensed under Creative Commons: By Attribution 4.0"
+  },
+  "countdown": 360,
+  "ticker": [
+    "INTEL −28.6% IN ONE DAY (OCT 30)",
+    "CHIP STOCKS ≈ −$1 TRILLION IN DAYS (EST.)",
+    "BIG TECH AI SPENDING 2026: $700B+",
+    "OPENAI COMPUTE COMMITMENTS ≈ $1.4 TRILLION",
+    "NVIDIA EARNINGS: NOV 17"
+  ],
+  "outputs": [
+    {
+      "name": "AI_Money_Loop_6min_ILLUSTRATED_FIRST_MINUTE",
+      "format": "long",
+      "engine": "doc",
+      "scenes": [
+        {
+          "text": "One trillion dollars. Gone, in just a few days. In the next six minutes, you'll see where that money went, why some of it was moving in a circle, and the one warning sign that shows if your own savings are exposed.",
+          "elements": [
+            {
+              "type": "shot",
+              "ai": "{char} sitting at a desk staring in shock at a computer monitor showing a red line chart that plunges steeply downward to the bottom right, papers flying around, dramatic",
+              "seed": 27,
+              "base": 1.04,
+              "dim": 0.12,
+              "move": "out",
+              "kind": "image",
+              "local": "EP02_ILLU/ai/3873461ee831.jpg",
+              "credit": "AI-generated illustration (FLUX.1-schnell, Black Forest Labs)"
+            },
+            {
+              "type": "fx",
+              "kind": "dust",
+              "n": 30,
+              "flicker": true
+            },
+            {
+              "type": "slam",
+              "text": "$1 TRILLION",
+              "color": "red",
+              "size": 230,
+              "until_at": "gone"
+            },
+            {
+              "type": "slam",
+              "text": "GONE.",
+              "color": "red",
+              "size": 260,
+              "at": "gone",
+              "until_at": "next six"
+            },
+            {
+              "type": "shot",
+              "ai": "a busy stock exchange trading floor with many small round-headed traders panicking, big boards on the wall with red down arrows, {char} standing in the middle looking up",
+              "seed": 21,
+              "base": 1.04,
+              "dim": 0.12,
+              "at": "next six",
+              "kind": "image",
+              "local": "EP02_ILLU/ai/ad27816a370c.jpg",
+              "credit": "AI-generated illustration (FLUX.1-schnell, Black Forest Labs)"
+            },
+            {
+              "type": "title",
+              "text": "In the next *6 minutes*",
+              "x": 960,
+              "y": 180,
+              "size": 96,
+              "at": "next six"
+            },
+            {
+              "type": "shot",
+              "ai": "green dollar bills flying in a big circular loop through the sky above a city of tall office buildings, curved arrows showing the circle",
+              "seed": 23,
+              "base": 1.04,
+              "dim": 0.12,
+              "at": "circle",
+              "move": "left",
+              "kind": "image",
+              "local": "EP02_ILLU/ai/50afd2f7f3e0.jpg",
+              "credit": "AI-generated illustration (FLUX.1-schnell, Black Forest Labs)"
+            },
+            {
+              "type": "shot",
+              "ai": "{char} at a kitchen table in the evening worriedly looking at a glass savings jar full of coins and a phone showing a red chart",
+              "seed": 24,
+              "base": 1.04,
+              "dim": 0.12,
+              "at": "warning sign",
+              "move": "in",
+              "kind": "image",
+              "local": "EP02_ILLU/ai/22c6d876d451.jpg",
+              "credit": "AI-generated illustration (FLUX.1-schnell, Black Forest Labs)"
+            },
+            {
+              "type": "caption",
+              "text": "① Where the money went",
+              "x": 960,
+              "y": 700,
+              "size": 54,
+              "at": "where that"
+            },
+            {
+              "type": "caption",
+              "text": "② Why it moved in a circle",
+              "x": 960,
+              "y": 790,
+              "size": 54,
+              "at": "circle"
+            },
+            {
+              "type": "caption",
+              "text": "③ The warning sign for your savings",
+              "x": 960,
+              "y": 880,
+              "size": 54,
+              "at": "warning sign"
+            }
+          ]
+        },
+        {
+          "text": "Late October. Intel falls almost thirty percent, in a single day. Its worst day in decades.",
+          "elements": [
+            {
+              "type": "shot",
+              "ai": "a large plain modern glass office building with no signs on a grey rainy day, {char} standing outside under an umbrella holding a phone",
+              "seed": 36,
+              "base": 1.04,
+              "dim": 0.12,
+              "kind": "image",
+              "local": "EP02_ILLU/ai/0d30c27056b0.jpg",
+              "credit": "AI-generated illustration (FLUX.1-schnell, Black Forest Labs)"
+            },
+            {
+              "type": "lower",
+              "text": "Late October 2026",
+              "sub": "AI chip stocks",
+              "x": 110,
+              "y": 150
+            },
+            {
+              "type": "stat",
+              "value": 28.6,
+              "x": 960,
+              "y": 780,
+              "prefix": "-",
+              "suffix": "%",
+              "decimals": 1,
+              "label": "Intel, in one day",
+              "color": "red",
+              "w": 760,
+              "size": 140,
+              "at": "thirty percent"
+            },
+            {
+              "type": "shot",
+              "ai": "close-up of {char} with a shocked face and wide eyes holding a phone whose screen shows a big red arrow pointing straight down",
+              "seed": 38,
+              "base": 1.04,
+              "dim": 0.12,
+              "at": "worst day",
+              "move": "in",
+              "kind": "image",
+              "local": "EP02_ILLU/ai/5a99cbda99f2.jpg",
+              "credit": "AI-generated illustration (FLUX.1-schnell, Black Forest Labs)"
+            },
+            {
+              "type": "caption",
+              "text": "its worst day in decades",
+              "x": 960,
+              "y": 920,
+              "size": 52,
+              "at": "worst day"
+            }
+          ]
+        },
+        {
+          "text": "To understand why, we have to follow the money. Starting with one dollar.",
+          "elements": [
+            {
+              "type": "shot",
+              "ai": "a single green dollar bill lying on a wooden detective desk under a desk lamp, with a magnifying glass, notebook and pencil beside it",
+              "seed": 41,
+              "base": 1.04,
+              "dim": 0.12,
+              "kind": "image",
+              "local": "EP02_ILLU/ai/4b338aee3520.jpg",
+              "credit": "AI-generated illustration (FLUX.1-schnell, Black Forest Labs)"
+            },
+            {
+              "type": "fx",
+              "kind": "dust"
+            },
+            {
+              "type": "title",
+              "text": "Follow the *money*",
+              "x": 960,
+              "y": 200,
+              "size": 110,
+              "at": "follow"
+            },
+            {
+              "type": "shot",
+              "ai": "{char} holding up a green dollar bill and studying it closely through a big magnifying glass, curious expression",
+              "seed": 42,
+              "base": 1.04,
+              "dim": 0.12,
+              "at": "starting",
+              "move": "out",
+              "kind": "image",
+              "local": "EP02_ILLU/ai/1300e351abd3.jpg",
+              "credit": "AI-generated illustration (FLUX.1-schnell, Black Forest Labs)"
+            }
+          ]
+        },
+        {
+          "text": "This year, Microsoft, Alphabet, Amazon and Meta plan to spend more than seven hundred billion dollars, mostly on data centers.",
+          "elements": [
+            {
+              "type": "shot",
+              "ai": "four giant glass office towers of big technology companies side by side in a city, with streams of dollar bills pouring out of their windows",
+              "seed": 51,
+              "base": 1.04,
+              "dim": 0.12,
+              "kind": "image",
+              "local": "EP02_ILLU/ai/e719f22fd9ca.jpg",
+              "credit": "AI-generated illustration (FLUX.1-schnell, Black Forest Labs)"
+            },
+            {
+              "type": "caption",
+              "text": "Microsoft · Alphabet · Amazon · Meta",
+              "x": 960,
+              "y": 200,
+              "size": 56,
+              "at": "microsoft"
+            },
+            {
+              "type": "shot",
+              "ai": "a huge data center construction site with cranes, trucks and many tiny workers, enormous grey warehouse buildings rising",
+              "seed": 52,
+              "base": 1.04,
+              "dim": 0.12,
+              "at": "seven hundred",
+              "move": "right",
+              "kind": "image",
+              "local": "EP02_ILLU/ai/06d56592b7a5.jpg",
+              "credit": "AI-generated illustration (FLUX.1-schnell, Black Forest Labs)"
+            },
+            {
+              "type": "stat",
+              "value": 700,
+              "x": 960,
+              "y": 470,
+              "prefix": "$",
+              "suffix": "B+",
+              "label": "Big Tech spending, 2026",
+              "at": "seven hundred"
+            },
+            {
+              "type": "shot",
+              "ai": "{char} wearing a yellow hard hat looking up in awe at a gigantic data center building under construction",
+              "seed": 53,
+              "base": 1.04,
+              "dim": 0.12,
+              "at": "data centers",
+              "move": "in",
+              "kind": "image",
+              "local": "EP02_ILLU/ai/eb04afbdb3af.jpg",
+              "credit": "AI-generated illustration (FLUX.1-schnell, Black Forest Labs)"
+            },
+            {
+              "type": "fx",
+              "kind": "dust",
+              "n": 40
+            }
+          ]
+        },
+        {
+          "text": "Inside those buildings: endless rows of computers, all running on one kind of chip.",
+          "elements": [
+            {
+              "type": "shot",
+              "ai": "inside a data center, endless rows of tall server racks with small green and blue lights stretching into the distance, one-point perspective",
+              "seed": 61,
+              "base": 1.04,
+              "dim": 0.12,
+              "kind": "image",
+              "local": "EP02_ILLU/ai/2d92a7e83a38.jpg",
+              "credit": "AI-generated illustration (FLUX.1-schnell, Black Forest Labs)"
+            },
+            {
+              "type": "fx",
+              "kind": "dust",
+              "n": 50
+            },
+            {
+              "type": "shot",
+              "ai": "{char} walking down a long aisle between tall server racks with blinking lights, looking around amazed",
+              "seed": 62,
+              "base": 1.04,
+              "dim": 0.12,
+              "at": "one kind",
+              "move": "in",
+              "kind": "image",
+              "local": "EP02_ILLU/ai/8ba8a3bb46cc.jpg",
+              "credit": "AI-generated illustration (FLUX.1-schnell, Black Forest Labs)"
+            }
+          ]
+        },
+        {
+          "text": "And most of those chips come from one company: Nvidia.",
+          "elements": [
+            {
+              "type": "shot",
+              "ai": "a giant green computer chip displayed on a museum pedestal with spotlights, small round-headed visitors gathered around it in admiration",
+              "seed": 71,
+              "base": 1.04,
+              "dim": 0.12,
+              "kind": "image",
+              "local": "EP02_ILLU/ai/0b695491d3ec.jpg",
+              "credit": "AI-generated illustration (FLUX.1-schnell, Black Forest Labs)"
+            },
+            {
+              "type": "fx",
+              "kind": "dust",
+              "n": 40
+            },
+            {
+              "type": "title",
+              "text": "One company: *Nvidia*",
+              "x": 960,
+              "y": 880,
+              "size": 100,
+              "at": "one company"
+            }
+          ]
+        },
+        {
+          "text": "But here's the twist. Nvidia takes some of that money, and sends it right back out.",
+          "elements": [
+            {
+              "type": "shot",
+              "ai": "a giant green computer chip shooting a fountain of dollar bills up into the sky like fireworks",
+              "seed": 81,
+              "base": 1.04,
+              "dim": 0.12,
+              "kind": "image",
+              "local": "EP02_ILLU/ai/008562c83b9e.jpg",
+              "credit": "AI-generated illustration (FLUX.1-schnell, Black Forest Labs)"
+            },
+            {
+              "type": "slam",
+              "text": "THE TWIST",
+              "color": "red",
+              "size": 240,
+              "until_at": "nvidia takes"
+            },
+            {
+              "type": "shot",
+              "ai": "{char} with wide surprised eyes and open mouth as dollar bills fly past him in the wind",
+              "seed": 82,
+              "base": 1.04,
+              "dim": 0.12,
+              "at": "sends it",
+              "move": "in",
+              "kind": "image",
+              "local": "EP02_ILLU/ai/58136cf6068a.jpg",
+              "credit": "AI-generated illustration (FLUX.1-schnell, Black Forest Labs)"
+            },
+            {
+              "type": "title",
+              "text": "…it sends the money *back out*",
+              "x": 960,
+              "y": 880,
+              "size": 84,
+              "hl": "red",
+              "at": "sends it"
+            }
+          ]
+        },
+        {
+          "text": "To the very companies that buy its chips.",
+          "elements": [
+            {
+              "type": "shot",
+              "ai": "a river of dollar bills flowing in a big circle from a giant computer chip into a data center building and back again, curved arrows showing the loop",
+              "seed": 91,
+              "base": 1.04,
+              "dim": 0.12,
+              "kind": "image",
+              "local": "EP02_ILLU/ai/27f81c31c65d.jpg",
+              "credit": "AI-generated illustration (FLUX.1-schnell, Black Forest Labs)"
+            },
+            {
+              "type": "title",
+              "text": "…to the companies that *buy its chips*",
+              "x": 960,
+              "y": 860,
+              "size": 84,
+              "at": "very companies"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

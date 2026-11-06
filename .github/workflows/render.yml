@@ -1,0 +1,114 @@
+name: render
+on:
+  workflow_dispatch:
+    inputs:
+      episode:
+        description: "Episode folder, e.g. EP02_AI_Money_Loop"
+        required: true
+      only:
+        description: "Optional: render just this output name"
+        required: false
+        default: ""
+
+# prepare (voice, clips, timing) -> 8 machines draw frame chunks in parallel -> assemble
+jobs:
+  prepare:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: Install tools
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq ffmpeg fonts-dejavu-core
+          pip install -q "edge-tts>=7,<8"
+          if grep -q '"kokoro"' "${{ inputs.episode }}/scenes.json"; then
+            sudo apt-get install -y -qq espeak-ng
+            pip install -q --extra-index-url https://download.pytorch.org/whl/cpu "kokoro>=0.9" soundfile
+          fi
+          cd whiteboard && npm install --no-audit --no-fund
+      - name: Voice, clips, timing (and any non-whiteboard outputs)
+        env:
+          WB_STAGE: prepare
+        run: python pipeline/render.py "${{ inputs.episode }}" ${{ inputs.only }}
+      - uses: actions/upload-artifact@v4
+        with:
+          name: prep
+          path: |
+            out/
+            whiteboard/public/mm/
+          retention-days: 2
+
+  draw:
+    needs: prepare
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    strategy:
+      matrix:
+        chunk: [0, 1, 2, 3, 4, 5, 6, 7]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - uses: actions/download-artifact@v4
+        with:
+          name: prep
+      - name: Install engine
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq libnss3 libatk1.0-0 libatk-bridge2.0-0 libcups2 libgbm1 libxkbcommon0 libxcomposite1 libxdamage1 libxrandr2 libpango-1.0-0 libasound2t64 || true
+          cd whiteboard && npm install --no-audit --no-fund
+      - name: Draw frames
+        run: python3 pipeline/chunks.py ${{ matrix.chunk }} 8
+      - uses: actions/upload-artifact@v4
+        with:
+          name: part-${{ matrix.chunk }}
+          path: parts/
+          retention-days: 2
+          if-no-files-found: ignore
+
+  assemble:
+    needs: draw
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/download-artifact@v4
+        with:
+          name: prep
+      - uses: actions/download-artifact@v4
+        with:
+          pattern: part-*
+          path: parts
+          merge-multiple: true
+      - name: Join chunks + audio
+        run: |
+          sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
+          python3 pipeline/assemble.py
+      - name: Preview frames for QA
+        continue-on-error: true
+        run: |
+          mkdir -p out/previews
+          for v in out/*.mp4; do
+            d=$(ffprobe -v error -show_entries format=duration -of csv=p=0 "$v")
+            # short pilots: one frame per second; long videos: 36 samples
+            step=$(awk -v d="$d" 'BEGIN{ if (d <= 120) printf "%.4f", 1/d; else print 0.028 }')
+            for p in $(seq 0.01 $step 0.99); do
+              ffmpeg -loglevel error -y -ss "$(awk -v d="$d" -v p="$p" 'BEGIN{printf "%.2f", d*p}')" -i "$v" -frames:v 1 -vf scale=640:-2 \
+                "out/previews/$(basename "$v" .mp4)_$p.jpg"
+            done
+          done
+      - name: Add thumbnail and upload text
+        run: cp "${{ inputs.episode }}/thumbnail.png" "${{ inputs.episode }}/upload.md" out/ || true
+      - uses: actions/upload-artifact@v4
+        with:
+          name: ${{ inputs.episode }}
+          path: out/
+          retention-days: 14

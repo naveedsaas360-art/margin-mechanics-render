@@ -1,0 +1,47 @@
+name: opuscar-styles
+# Installs the Lemo-Opuscar toolkit (MIT) on a cloud machine and renders review stills of chosen styles.
+on:
+  workflow_dispatch:
+    inputs:
+      styles:
+        description: "Space-separated style slugs"
+        required: true
+        default: "countdown caption-news visual-investigation dataviz swiss-motion dark-keynote"
+      times:
+        description: "Seconds to sample in each demo"
+        required: false
+        default: "1.5 4 8 13 19 26"
+
+jobs:
+  stills:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install Lemo-Opuscar (core tier)
+        run: |
+          git clone --quiet --depth 1 https://github.com/lemomo-ai/lemo-opuscar.git opuscar
+          cd opuscar
+          npm ci --no-audit --no-fund
+          node node_modules/playwright-core/cli.js install --with-deps chromium-headless-shell
+          python -m venv .venv && .venv/bin/pip install -q -r requirements.txt
+          du -sh node_modules .venv ~/.cache/ms-playwright 2>/dev/null || true
+      - name: Render review stills at 1440p
+        run: |
+          cd opuscar
+          mkdir -p ../stills
+          for s in ${{ inputs.styles }}; do
+            node core/render/still.mjs styles/$s/demo ${{ inputs.times }} --size 2560x1440 --prefix "${s}_" --out ../stills \
+              || echo "!! $s failed"
+          done
+          ls ../stills | head -60
+      - uses: actions/upload-artifact@v4
+        with:
+          name: opuscar-stills
+          path: stills/
+          retention-days: 7

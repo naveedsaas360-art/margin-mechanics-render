@@ -1,0 +1,513 @@
+{
+  "voice": "en-US-AndrewNeural",
+  "rate": "+2%",
+  "music": {
+    "url": "https://incompetech.com/music/royalty-free/mp3-royaltyfree/Investigations.mp3",
+    "volume": 0.07,
+    "credit": "\"Investigations\" Kevin MacLeod (incompetech.com), licensed under Creative Commons: By Attribution 4.0"
+  },
+  "countdown": 360,
+  "ticker": [
+    "INTEL −28.6% IN ONE DAY (OCT 30)",
+    "CHIP STOCKS ≈ −$1 TRILLION IN DAYS (EST.)",
+    "BIG TECH AI SPENDING 2026: $700B+",
+    "OPENAI COMPUTE COMMITMENTS ≈ $1.4 TRILLION",
+    "NVIDIA EARNINGS: NOV 17"
+  ],
+  "outputs": [
+    {
+      "name": "AI_Money_Loop_6min_STORY_FIRST_MINUTE",
+      "format": "long",
+      "engine": "doc",
+      "scenes": [
+        {
+          "text": "Meet Maya.",
+          "elements": [
+            {
+              "type": "bg",
+              "colors": [
+                "#2a4b8d",
+                "#0d1530"
+              ]
+            },
+            {
+              "type": "peep",
+              "body": "Coffee",
+              "face": "Smile",
+              "x": 960,
+              "y": 560,
+              "size": 760,
+              "head": "LongHair"
+            },
+            {
+              "type": "lower",
+              "text": "Maya",
+              "sub": "an ordinary investor",
+              "x": 110,
+              "y": 820
+            }
+          ]
+        },
+        {
+          "text": "Maya has never bought a single tech stock. But like millions of people, her retirement money sits in an index fund.",
+          "elements": [
+            {
+              "type": "bg",
+              "colors": [
+                "#3b2a6b",
+                "#120b26"
+              ]
+            },
+            {
+              "type": "peep",
+              "body": "Explaining",
+              "face": "Calm",
+              "x": 520,
+              "y": 600,
+              "size": 700,
+              "reacts": [
+                {
+                  "at": "index fund",
+                  "face": "Smile"
+                }
+              ],
+              "head": "LongHair"
+            },
+            {
+              "type": "bubble",
+              "text": "Tech stocks? Not me.",
+              "x": 1240,
+              "y": 330,
+              "at": "never bought",
+              "until_at": "retirement",
+              "w": 720,
+              "size": 64
+            },
+            {
+              "type": "icon",
+              "name": "pig-money",
+              "x": 1300,
+              "y": 470,
+              "size": 300,
+              "color": "yellow",
+              "at": "retirement"
+            },
+            {
+              "type": "title",
+              "text": "…but her index fund is full of *tech*",
+              "x": 1250,
+              "y": 800,
+              "size": 64,
+              "w": 1100,
+              "at": "index fund"
+            }
+          ]
+        },
+        {
+          "text": "In the last week of October, she opens her app, and sees red.",
+          "elements": [
+            {
+              "type": "bg",
+              "colors": [
+                "#1e2a3a",
+                "#0a0f16"
+              ]
+            },
+            {
+              "type": "peep",
+              "body": "Computer",
+              "face": "Calm",
+              "x": 560,
+              "y": 610,
+              "size": 700,
+              "reacts": [
+                {
+                  "at": "sees red",
+                  "face": "Fear"
+                }
+              ],
+              "head": "LongHair"
+            },
+            {
+              "type": "phone",
+              "x": 1340,
+              "y": 560,
+              "at": "opens her app",
+              "crash": 2.6,
+              "ticker": "CHIP STOCKS"
+            }
+          ]
+        },
+        {
+          "text": "Chip stocks lost roughly a trillion dollars in just a few days. Intel fell almost thirty percent, in a single day.",
+          "elements": [
+            {
+              "type": "bg",
+              "colors": [
+                "#4a0f12",
+                "#140405"
+              ]
+            },
+            {
+              "type": "crash",
+              "x": 330,
+              "y": 980
+            },
+            {
+              "type": "stat",
+              "value": 1,
+              "x": 960,
+              "y": 330,
+              "prefix": "-$",
+              "suffix": " TRILLION",
+              "label": "chip stocks, in days (estimates)",
+              "color": "red",
+              "at": "trillion",
+              "until_at": "intel"
+            },
+            {
+              "type": "stat",
+              "value": 28.6,
+              "x": 960,
+              "y": 330,
+              "prefix": "-",
+              "suffix": "%",
+              "decimals": 1,
+              "label": "Intel, in one day",
+              "color": "red",
+              "w": 820,
+              "at": "thirty percent"
+            },
+            {
+              "type": "peep",
+              "body": "Paper",
+              "face": "Fear",
+              "x": 1620,
+              "y": 640,
+              "size": 520,
+              "at": "intel",
+              "head": "LongHair"
+            }
+          ]
+        },
+        {
+          "text": "So Maya asks the question nobody on TV answers. Where did all that money come from in the first place?",
+          "elements": [
+            {
+              "type": "bg",
+              "colors": [
+                "#33204f",
+                "#0f0918"
+              ]
+            },
+            {
+              "type": "peep",
+              "body": "PointingUp",
+              "face": "Suspicious",
+              "x": 520,
+              "y": 600,
+              "size": 720,
+              "head": "LongHair"
+            },
+            {
+              "type": "icon",
+              "name": "device-tv",
+              "x": 1350,
+              "y": 640,
+              "size": 260,
+              "color": "white",
+              "at": "nobody on tv",
+              "until_at": "where did"
+            },
+            {
+              "type": "bubble",
+              "text": "Where did all that money COME FROM?",
+              "x": 1280,
+              "y": 360,
+              "thought": true,
+              "at": "where did",
+              "w": 900,
+              "size": 64
+            }
+          ]
+        },
+        {
+          "text": "To find out, we'll follow one dollar.",
+          "elements": [
+            {
+              "type": "bg",
+              "colors": [
+                "#0f3d2a",
+                "#05140d"
+              ]
+            },
+            {
+              "type": "title",
+              "text": "Follow *one dollar*",
+              "x": 960,
+              "y": 230,
+              "size": 110,
+              "at": "follow"
+            },
+            {
+              "type": "dollar",
+              "from": [
+                960,
+                620
+              ],
+              "size": 1.8,
+              "at": "one dollar"
+            }
+          ]
+        },
+        {
+          "text": "Our dollar starts at Big Tech. This year, Microsoft, Alphabet, Amazon and Meta plan to spend more than seven hundred billion dollars.",
+          "elements": [
+            {
+              "type": "bg",
+              "colors": [
+                "#1c2f5e",
+                "#0a1124"
+              ]
+            },
+            {
+              "type": "title",
+              "text": "It starts at *Big Tech*",
+              "x": 960,
+              "y": 150,
+              "size": 84,
+              "until_at": "seven hundred"
+            },
+            {
+              "type": "icon",
+              "name": "building-skyscraper",
+              "x": 330,
+              "y": 540,
+              "size": 230,
+              "label": "Microsoft",
+              "at": "microsoft"
+            },
+            {
+              "type": "icon",
+              "name": "building-skyscraper",
+              "x": 730,
+              "y": 540,
+              "size": 230,
+              "label": "Alphabet",
+              "at": "alphabet"
+            },
+            {
+              "type": "icon",
+              "name": "building-skyscraper",
+              "x": 1130,
+              "y": 540,
+              "size": 230,
+              "label": "Amazon",
+              "at": "amazon"
+            },
+            {
+              "type": "icon",
+              "name": "building-skyscraper",
+              "x": 1530,
+              "y": 540,
+              "size": 230,
+              "label": "Meta",
+              "at": "meta plan"
+            },
+            {
+              "type": "dollar",
+              "from": [
+                330,
+                820
+              ],
+              "to": [
+                930,
+                820
+              ],
+              "travel": 2.2,
+              "hop": 60,
+              "at": "microsoft"
+            },
+            {
+              "type": "stat",
+              "value": 700,
+              "x": 960,
+              "y": 250,
+              "prefix": "$",
+              "suffix": "B+",
+              "label": "Big Tech spending, 2026",
+              "at": "seven hundred"
+            },
+            {
+              "type": "dollar",
+              "from": [
+                960,
+                820
+              ],
+              "copies": 9,
+              "size": 0.8,
+              "at": "seven hundred"
+            }
+          ]
+        },
+        {
+          "text": "Most of it goes to data centers, and the chips inside them.",
+          "elements": [
+            {
+              "type": "bg",
+              "colors": [
+                "#0e3b47",
+                "#04141a"
+              ]
+            },
+            {
+              "type": "icon",
+              "name": "server",
+              "x": 960,
+              "y": 480,
+              "size": 280,
+              "color": "white",
+              "label": "data centers",
+              "at": "data centers"
+            },
+            {
+              "type": "dollar",
+              "from": [
+                250,
+                720
+              ],
+              "to": [
+                880,
+                720
+              ],
+              "travel": 1.0,
+              "at": "data centers"
+            },
+            {
+              "type": "icon",
+              "name": "cpu",
+              "x": 1560,
+              "y": 480,
+              "size": 260,
+              "color": "green",
+              "label": "chips",
+              "at": "chips"
+            },
+            {
+              "type": "dollar",
+              "from": [
+                960,
+                720
+              ],
+              "to": [
+                1520,
+                720
+              ],
+              "travel": 0.9,
+              "at": "chips"
+            }
+          ]
+        },
+        {
+          "text": "So our dollar lands at the company that makes those chips: Nvidia.",
+          "elements": [
+            {
+              "type": "bg",
+              "colors": [
+                "#103b1c",
+                "#051408"
+              ]
+            },
+            {
+              "type": "icon",
+              "name": "cpu",
+              "x": 960,
+              "y": 460,
+              "size": 400,
+              "color": "green",
+              "label": "NVIDIA",
+              "at": "company"
+            },
+            {
+              "type": "dollar",
+              "from": [
+                260,
+                760
+              ],
+              "to": [
+                960,
+                760
+              ],
+              "travel": 1.2,
+              "hop": 220,
+              "at": "lands"
+            },
+            {
+              "type": "lower",
+              "text": "Nvidia",
+              "sub": "makes the chips most AI runs on",
+              "x": 110,
+              "y": 150,
+              "at": "nvidia"
+            }
+          ]
+        },
+        {
+          "text": "And that's where the story gets strange. Because Nvidia sends part of that dollar right back out.",
+          "elements": [
+            {
+              "type": "bg",
+              "colors": [
+                "#3a1450",
+                "#100516"
+              ]
+            },
+            {
+              "type": "icon",
+              "name": "cpu",
+              "x": 640,
+              "y": 470,
+              "size": 320,
+              "color": "green",
+              "label": "NVIDIA"
+            },
+            {
+              "type": "dollar",
+              "from": [
+                680,
+                720
+              ],
+              "to": [
+                1420,
+                360
+              ],
+              "travel": 1.0,
+              "hop": 260,
+              "at": "sends"
+            },
+            {
+              "type": "peep",
+              "body": "Explaining",
+              "face": "Awe",
+              "x": 1600,
+              "y": 680,
+              "size": 520,
+              "at": "strange",
+              "head": "LongHair"
+            },
+            {
+              "type": "title",
+              "text": "Wait… it goes *back out*?",
+              "x": 760,
+              "y": 880,
+              "size": 80,
+              "w": 1250,
+              "hl": "red",
+              "at": "right back"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,921 @@
+{
+  "voice": "en-US-AndrewNeural",
+  "rate": "-2%",
+  "music": {
+    "url": "https://incompetech.com/music/royalty-free/mp3-royaltyfree/Investigations.mp3",
+    "volume": 0.07,
+    "credit": "\"Investigations\" Kevin MacLeod (incompetech.com), licensed under Creative Commons: By Attribution 4.0"
+  },
+  "outputs": [
+    {
+      "name": "PILOT_A_voice_andrew",
+      "format": "long",
+      "engine": "whiteboard",
+      "scenes": [
+        {
+          "chapter": "The trillion-dollar week",
+          "text": "In just a few days at the end of October, chip stocks lost roughly a trillion dollars in value. Intel fell almost thirty percent in a single day, its worst day in decades.",
+          "elements": [
+            {
+              "type": "clip",
+              "q": "stock market sell-off red",
+              "full": true,
+              "dim": 0.55,
+              "pixabay_id": 338956,
+              "url": "https://cdn.pixabay.com/video/2026/03/08/338956_medium.mp4",
+              "clipSeconds": 8,
+              "credit": "Pixabay #338956 by MrWashingt0n",
+              "thumb": "https://cdn.pixabay.com/video/2026/03/08/338956_medium.jpg"
+            },
+            {
+              "type": "write",
+              "text": "LATE OCTOBER 2026",
+              "x": 330,
+              "y": 110,
+              "size": 64,
+              "font": "marker",
+              "color": "yellow",
+              "w": 560
+            },
+            {
+              "type": "peep",
+              "body": "Computer",
+              "face": "Calm",
+              "x": 1590,
+              "y": 790,
+              "size": 540,
+              "head": "ShortOne",
+              "reacts": [
+                {
+                  "at": "lost",
+                  "face": "Fear"
+                },
+                {
+                  "at": "worst day",
+                  "face": "Awe"
+                }
+              ]
+            },
+            {
+              "type": "count",
+              "value": 1,
+              "x": 820,
+              "y": 300,
+              "size": 220,
+              "prefix": "-$",
+              "suffix": " TRILLION",
+              "color": "red",
+              "w": 1300,
+              "at": "lost"
+            },
+            {
+              "type": "write",
+              "text": "chip stocks, late October (estimates)",
+              "x": 820,
+              "y": 470,
+              "size": 64,
+              "color": "white",
+              "w": 1200
+            },
+            {
+              "type": "write",
+              "text": "INTEL: -28.6% IN ONE DAY",
+              "x": 760,
+              "y": 720,
+              "size": 92,
+              "font": "marker",
+              "color": "yellow",
+              "w": 1250,
+              "at": "intel"
+            },
+            {
+              "type": "underline",
+              "x": 260,
+              "y": 800,
+              "w": 1000,
+              "color": "yellow",
+              "at": "worst day"
+            }
+          ]
+        },
+        {
+          "text": "But the strange part isn't the crash. It's where a lot of that money came from in the first place. Because when you follow it, some of it goes around in a circle.",
+          "elements": [
+            {
+              "type": "peep",
+              "body": "PointingUp",
+              "face": "Suspicious",
+              "x": 330,
+              "y": 640,
+              "size": 640,
+              "head": "Pomp",
+              "reacts": [
+                {
+                  "at": "follow it",
+                  "face": "Driven"
+                },
+                {
+                  "at": "circle",
+                  "face": "Awe"
+                }
+              ]
+            },
+            {
+              "type": "write",
+              "text": "FOLLOW THE MONEY",
+              "x": 1150,
+              "y": 110,
+              "size": 100,
+              "font": "marker",
+              "color": "blue"
+            },
+            {
+              "type": "icon",
+              "name": "coin",
+              "x": 1150,
+              "y": 330,
+              "size": 170,
+              "color": "green",
+              "at": "came from"
+            },
+            {
+              "type": "arrow",
+              "from": [
+                1260,
+                380
+              ],
+              "to": [
+                1400,
+                600
+              ],
+              "bend": -40,
+              "color": "green"
+            },
+            {
+              "type": "icon",
+              "name": "coin",
+              "x": 1440,
+              "y": 700,
+              "size": 170,
+              "color": "green"
+            },
+            {
+              "type": "arrow",
+              "from": [
+                1350,
+                770
+              ],
+              "to": [
+                980,
+                770
+              ],
+              "bend": -40,
+              "color": "green"
+            },
+            {
+              "type": "icon",
+              "name": "coin",
+              "x": 860,
+              "y": 700,
+              "size": 170,
+              "color": "green"
+            },
+            {
+              "type": "arrow",
+              "from": [
+                900,
+                600
+              ],
+              "to": [
+                1040,
+                380
+              ],
+              "bend": -40,
+              "color": "green",
+              "at": "goes around"
+            },
+            {
+              "type": "circle",
+              "x": 1150,
+              "y": 560,
+              "w": 900,
+              "h": 620,
+              "color": "red",
+              "at": "circle"
+            },
+            {
+              "type": "write",
+              "text": "the same dollars, around and around",
+              "x": 1150,
+              "y": 960,
+              "size": 70,
+              "color": "red",
+              "w": 1300
+            }
+          ]
+        },
+        {
+          "text": "By the end of this video, you'll understand the loop, why it made the AI boom look even bigger than it was, and the three signals that tell you whether this ends in a soft landing or a real bust.",
+          "elements": [
+            {
+              "type": "peep",
+              "body": "Explaining",
+              "face": "Explaining",
+              "x": 1590,
+              "y": 640,
+              "size": 640,
+              "head": "MediumStraight",
+              "reacts": [
+                {
+                  "at": "real bust",
+                  "face": "Concerned"
+                }
+              ]
+            },
+            {
+              "type": "write",
+              "text": "IN THIS VIDEO",
+              "x": 640,
+              "y": 110,
+              "size": 92,
+              "font": "marker",
+              "color": "blue"
+            },
+            {
+              "type": "icon",
+              "name": "arrows-exchange",
+              "x": 190,
+              "y": 300,
+              "size": 150,
+              "color": "blue",
+              "at": "the loop"
+            },
+            {
+              "type": "write",
+              "text": "how the money loop works",
+              "x": 720,
+              "y": 300,
+              "size": 92,
+              "w": 880,
+              "at": "the loop"
+            },
+            {
+              "type": "icon",
+              "name": "trending-up",
+              "x": 190,
+              "y": 480,
+              "size": 150,
+              "color": "green",
+              "at": "bigger"
+            },
+            {
+              "type": "write",
+              "text": "why the boom looked bigger",
+              "x": 720,
+              "y": 480,
+              "size": 92,
+              "w": 880
+            },
+            {
+              "type": "icon",
+              "name": "eye",
+              "x": 190,
+              "y": 660,
+              "size": 150,
+              "color": "red",
+              "at": "three signals"
+            },
+            {
+              "type": "write",
+              "text": "3 signals to watch",
+              "x": 720,
+              "y": 660,
+              "size": 92,
+              "w": 880
+            },
+            {
+              "type": "write",
+              "text": "soft landing?",
+              "x": 430,
+              "y": 880,
+              "size": 84,
+              "color": "green",
+              "w": 600,
+              "at": "soft landing"
+            },
+            {
+              "type": "write",
+              "text": "or real bust?",
+              "x": 980,
+              "y": 880,
+              "size": 84,
+              "color": "red",
+              "w": 600,
+              "at": "real bust"
+            }
+          ]
+        },
+        {
+          "chapter": "The biggest building spree in history",
+          "text": "Start with the spending. Microsoft, Alphabet, Amazon and Meta are on track to spend more than seven hundred billion dollars this year, mostly on data centers and the chips inside them.",
+          "elements": [
+            {
+              "type": "clip",
+              "q": "data center server room",
+              "full": true,
+              "dim": 0.55,
+              "url": "https://cdn.pixabay.com/video/2026/10/02/380334_medium.mp4",
+              "clipSeconds": 8,
+              "credit": "Pixabay #380334 by MrWashingt0n",
+              "thumb": "https://cdn.pixabay.com/video/2026/10/02/380334_medium.jpg"
+            },
+            {
+              "type": "write",
+              "text": "BIG TECH SPENDING, 2026",
+              "x": 960,
+              "y": 140,
+              "size": 88,
+              "font": "marker",
+              "color": "white"
+            },
+            {
+              "type": "write",
+              "text": "Microsoft  ·  Alphabet  ·  Amazon  ·  Meta",
+              "x": 960,
+              "y": 300,
+              "size": 76,
+              "color": "white",
+              "at": "microsoft"
+            },
+            {
+              "type": "count",
+              "value": 700,
+              "x": 960,
+              "y": 520,
+              "size": 240,
+              "prefix": "$",
+              "suffix": "B+",
+              "color": "yellow",
+              "at": "seven hundred"
+            },
+            {
+              "type": "write",
+              "text": "mostly data centers + the chips inside",
+              "x": 960,
+              "y": 780,
+              "size": 76,
+              "color": "white",
+              "at": "data centers"
+            },
+            {
+              "type": "underline",
+              "x": 470,
+              "y": 850,
+              "w": 980,
+              "color": "yellow",
+              "at": "chips inside"
+            }
+          ]
+        },
+        {
+          "text": "Alphabet alone guided to around two hundred billion. Meta, up to one hundred forty-five. Microsoft, about one hundred seventy. And next year, the total is expected to top one trillion dollars.",
+          "elements": [
+            {
+              "type": "peep",
+              "body": "Paper",
+              "face": "Calm",
+              "x": 1630,
+              "y": 700,
+              "size": 560,
+              "head": "Bun",
+              "reacts": [
+                {
+                  "at": "next year",
+                  "face": "Awe"
+                },
+                {
+                  "at": "one trillion",
+                  "face": "Fear"
+                }
+              ]
+            },
+            {
+              "type": "write",
+              "text": "2026 spending plans ($ billions)",
+              "x": 700,
+              "y": 100,
+              "size": 70,
+              "w": 1200
+            },
+            {
+              "type": "bars",
+              "x": 120,
+              "y": 900,
+              "w": 1150,
+              "h": 560,
+              "data": [
+                {
+                  "label": "Alphabet",
+                  "value": 200,
+                  "valueLabel": "~$200B",
+                  "color": "blue"
+                },
+                {
+                  "label": "Meta",
+                  "value": 145,
+                  "valueLabel": "up to $145B",
+                  "color": "orange"
+                },
+                {
+                  "label": "Microsoft",
+                  "value": 170,
+                  "valueLabel": "~$170B",
+                  "color": "green"
+                }
+              ],
+              "at": "alphabet alone",
+              "dur": 5.5,
+              "labelSize": 62,
+              "valueSize": 72
+            },
+            {
+              "type": "write",
+              "text": "NEXT YEAR:\n$1 TRILLION+",
+              "x": 1600,
+              "y": 230,
+              "size": 80,
+              "font": "marker",
+              "color": "red",
+              "w": 560,
+              "at": "next year"
+            },
+            {
+              "type": "box",
+              "x": 1300,
+              "y": 120,
+              "w": 600,
+              "h": 230,
+              "color": "red"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PILOT_B_voice_kokoro",
+      "format": "long",
+      "engine": "whiteboard",
+      "tts": "kokoro",
+      "voice": "am_michael",
+      "scenes": [
+        {
+          "chapter": "The trillion-dollar week",
+          "text": "In just a few days at the end of October, chip stocks lost roughly a trillion dollars in value. Intel fell almost thirty percent in a single day, its worst day in decades.",
+          "elements": [
+            {
+              "type": "clip",
+              "q": "stock market sell-off red",
+              "full": true,
+              "dim": 0.55,
+              "pixabay_id": 338956,
+              "url": "https://cdn.pixabay.com/video/2026/03/08/338956_medium.mp4",
+              "clipSeconds": 8,
+              "credit": "Pixabay #338956 by MrWashingt0n",
+              "thumb": "https://cdn.pixabay.com/video/2026/03/08/338956_medium.jpg"
+            },
+            {
+              "type": "write",
+              "text": "LATE OCTOBER 2026",
+              "x": 330,
+              "y": 110,
+              "size": 64,
+              "font": "marker",
+              "color": "yellow",
+              "w": 560
+            },
+            {
+              "type": "peep",
+              "body": "Computer",
+              "face": "Calm",
+              "x": 1590,
+              "y": 790,
+              "size": 540,
+              "head": "ShortOne",
+              "reacts": [
+                {
+                  "at": "lost",
+                  "face": "Fear"
+                },
+                {
+                  "at": "worst day",
+                  "face": "Awe"
+                }
+              ]
+            },
+            {
+              "type": "count",
+              "value": 1,
+              "x": 820,
+              "y": 300,
+              "size": 220,
+              "prefix": "-$",
+              "suffix": " TRILLION",
+              "color": "red",
+              "w": 1300,
+              "at": "lost"
+            },
+            {
+              "type": "write",
+              "text": "chip stocks, late October (estimates)",
+              "x": 820,
+              "y": 470,
+              "size": 64,
+              "color": "white",
+              "w": 1200
+            },
+            {
+              "type": "write",
+              "text": "INTEL: -28.6% IN ONE DAY",
+              "x": 760,
+              "y": 720,
+              "size": 92,
+              "font": "marker",
+              "color": "yellow",
+              "w": 1250,
+              "at": "intel"
+            },
+            {
+              "type": "underline",
+              "x": 260,
+              "y": 800,
+              "w": 1000,
+              "color": "yellow",
+              "at": "worst day"
+            }
+          ]
+        },
+        {
+          "text": "But the strange part isn't the crash. It's where a lot of that money came from in the first place. Because when you follow it, some of it goes around in a circle.",
+          "elements": [
+            {
+              "type": "peep",
+              "body": "PointingUp",
+              "face": "Suspicious",
+              "x": 330,
+              "y": 640,
+              "size": 640,
+              "head": "Pomp",
+              "reacts": [
+                {
+                  "at": "follow it",
+                  "face": "Driven"
+                },
+                {
+                  "at": "circle",
+                  "face": "Awe"
+                }
+              ]
+            },
+            {
+              "type": "write",
+              "text": "FOLLOW THE MONEY",
+              "x": 1150,
+              "y": 110,
+              "size": 100,
+              "font": "marker",
+              "color": "blue"
+            },
+            {
+              "type": "icon",
+              "name": "coin",
+              "x": 1150,
+              "y": 330,
+              "size": 170,
+              "color": "green",
+              "at": "came from"
+            },
+            {
+              "type": "arrow",
+              "from": [
+                1260,
+                380
+              ],
+              "to": [
+                1400,
+                600
+              ],
+              "bend": -40,
+              "color": "green"
+            },
+            {
+              "type": "icon",
+              "name": "coin",
+              "x": 1440,
+              "y": 700,
+              "size": 170,
+              "color": "green"
+            },
+            {
+              "type": "arrow",
+              "from": [
+                1350,
+                770
+              ],
+              "to": [
+                980,
+                770
+              ],
+              "bend": -40,
+              "color": "green"
+            },
+            {
+              "type": "icon",
+              "name": "coin",
+              "x": 860,
+              "y": 700,
+              "size": 170,
+              "color": "green"
+            },
+            {
+              "type": "arrow",
+              "from": [
+                900,
+                600
+              ],
+              "to": [
+                1040,
+                380
+              ],
+              "bend": -40,
+              "color": "green",
+              "at": "goes around"
+            },
+            {
+              "type": "circle",
+              "x": 1150,
+              "y": 560,
+              "w": 900,
+              "h": 620,
+              "color": "red",
+              "at": "circle"
+            },
+            {
+              "type": "write",
+              "text": "the same dollars, around and around",
+              "x": 1150,
+              "y": 960,
+              "size": 70,
+              "color": "red",
+              "w": 1300
+            }
+          ]
+        },
+        {
+          "text": "By the end of this video, you'll understand the loop, why it made the AI boom look even bigger than it was, and the three signals that tell you whether this ends in a soft landing or a real bust.",
+          "elements": [
+            {
+              "type": "peep",
+              "body": "Explaining",
+              "face": "Explaining",
+              "x": 1590,
+              "y": 640,
+              "size": 640,
+              "head": "MediumStraight",
+              "reacts": [
+                {
+                  "at": "real bust",
+                  "face": "Concerned"
+                }
+              ]
+            },
+            {
+              "type": "write",
+              "text": "IN THIS VIDEO",
+              "x": 640,
+              "y": 110,
+              "size": 92,
+              "font": "marker",
+              "color": "blue"
+            },
+            {
+              "type": "icon",
+              "name": "arrows-exchange",
+              "x": 190,
+              "y": 300,
+              "size": 150,
+              "color": "blue",
+              "at": "the loop"
+            },
+            {
+              "type": "write",
+              "text": "how the money loop works",
+              "x": 720,
+              "y": 300,
+              "size": 92,
+              "w": 880,
+              "at": "the loop"
+            },
+            {
+              "type": "icon",
+              "name": "trending-up",
+              "x": 190,
+              "y": 480,
+              "size": 150,
+              "color": "green",
+              "at": "bigger"
+            },
+            {
+              "type": "write",
+              "text": "why the boom looked bigger",
+              "x": 720,
+              "y": 480,
+              "size": 92,
+              "w": 880
+            },
+            {
+              "type": "icon",
+              "name": "eye",
+              "x": 190,
+              "y": 660,
+              "size": 150,
+              "color": "red",
+              "at": "three signals"
+            },
+            {
+              "type": "write",
+              "text": "3 signals to watch",
+              "x": 720,
+              "y": 660,
+              "size": 92,
+              "w": 880
+            },
+            {
+              "type": "write",
+              "text": "soft landing?",
+              "x": 430,
+              "y": 880,
+              "size": 84,
+              "color": "green",
+              "w": 600,
+              "at": "soft landing"
+            },
+            {
+              "type": "write",
+              "text": "or real bust?",
+              "x": 980,
+              "y": 880,
+              "size": 84,
+              "color": "red",
+              "w": 600,
+              "at": "real bust"
+            }
+          ]
+        },
+        {
+          "chapter": "The biggest building spree in history",
+          "text": "Start with the spending. Microsoft, Alphabet, Amazon and Meta are on track to spend more than seven hundred billion dollars this year, mostly on data centers and the chips inside them.",
+          "elements": [
+            {
+              "type": "clip",
+              "q": "data center server room",
+              "full": true,
+              "dim": 0.55,
+              "url": "https://cdn.pixabay.com/video/2026/10/02/380334_medium.mp4",
+              "clipSeconds": 8,
+              "credit": "Pixabay #380334 by MrWashingt0n",
+              "thumb": "https://cdn.pixabay.com/video/2026/10/02/380334_medium.jpg"
+            },
+            {
+              "type": "write",
+              "text": "BIG TECH SPENDING, 2026",
+              "x": 960,
+              "y": 140,
+              "size": 88,
+              "font": "marker",
+              "color": "white"
+            },
+            {
+              "type": "write",
+              "text": "Microsoft  ·  Alphabet  ·  Amazon  ·  Meta",
+              "x": 960,
+              "y": 300,
+              "size": 76,
+              "color": "white",
+              "at": "microsoft"
+            },
+            {
+              "type": "count",
+              "value": 700,
+              "x": 960,
+              "y": 520,
+              "size": 240,
+              "prefix": "$",
+              "suffix": "B+",
+              "color": "yellow",
+              "at": "seven hundred"
+            },
+            {
+              "type": "write",
+              "text": "mostly data centers + the chips inside",
+              "x": 960,
+              "y": 780,
+              "size": 76,
+              "color": "white",
+              "at": "data centers"
+            },
+            {
+              "type": "underline",
+              "x": 470,
+              "y": 850,
+              "w": 980,
+              "color": "yellow",
+              "at": "chips inside"
+            }
+          ]
+        },
+        {
+          "text": "Alphabet alone guided to around two hundred billion. Meta, up to one hundred forty-five. Microsoft, about one hundred seventy. And next year, the total is expected to top one trillion dollars.",
+          "elements": [
+            {
+              "type": "peep",
+              "body": "Paper",
+              "face": "Calm",
+              "x": 1630,
+              "y": 700,
+              "size": 560,
+              "head": "Bun",
+              "reacts": [
+                {
+                  "at": "next year",
+                  "face": "Awe"
+                },
+                {
+                  "at": "one trillion",
+                  "face": "Fear"
+                }
+              ]
+            },
+            {
+              "type": "write",
+              "text": "2026 spending plans ($ billions)",
+              "x": 700,
+              "y": 100,
+              "size": 70,
+              "w": 1200
+            },
+            {
+              "type": "bars",
+              "x": 120,
+              "y": 900,
+              "w": 1150,
+              "h": 560,
+              "data": [
+                {
+                  "label": "Alphabet",
+                  "value": 200,
+                  "valueLabel": "~$200B",
+                  "color": "blue"
+                },
+                {
+                  "label": "Meta",
+                  "value": 145,
+                  "valueLabel": "up to $145B",
+                  "color": "orange"
+                },
+                {
+                  "label": "Microsoft",
+                  "value": 170,
+                  "valueLabel": "~$170B",
+                  "color": "green"
+                }
+              ],
+              "at": "alphabet alone",
+              "dur": 5.5,
+              "labelSize": 62,
+              "valueSize": 72
+            },
+            {
+              "type": "write",
+              "text": "NEXT YEAR:\n$1 TRILLION+",
+              "x": 1600,
+              "y": 230,
+              "size": 80,
+              "font": "marker",
+              "color": "red",
+              "w": 560,
+              "at": "next year"
+            },
+            {
+              "type": "box",
+              "x": 1300,
+              "y": 120,
+              "w": 600,
+              "h": 230,
+              "color": "red"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

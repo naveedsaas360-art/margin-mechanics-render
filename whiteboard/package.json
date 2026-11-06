@@ -1,0 +1,19 @@
+{
+  "name": "mm-whiteboard",
+  "private": true,
+  "description": "Hand-drawn whiteboard renderer for Margin Mechanics",
+  "dependencies": {
+    "@opeepsfun/open-peeps": "1.0.6",
+    "@react-three/fiber": "8.17.14",
+    "@remotion/cli": "4.0.484",
+    "@remotion/google-fonts": "4.0.484",
+    "@remotion/paths": "4.0.484",
+    "@remotion/three": "4.0.484",
+    "@tabler/icons": "^3.0.0",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "remotion": "4.0.484",
+    "roughjs": "4.6.6",
+    "three": "0.170.0"
+  }
+}

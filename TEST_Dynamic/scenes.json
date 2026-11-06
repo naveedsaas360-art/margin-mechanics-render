@@ -1,0 +1,159 @@
+{
+  "voice": "en-US-AndrewNeural",
+  "rate": "-2%",
+  "outputs": [
+    {
+      "name": "TEST_Dynamic",
+      "format": "long",
+      "engine": "whiteboard",
+      "scenes": [
+        {
+          "text": "Every day, giant data centers burn through billions of dollars of chips. And the money that pays for them often travels in a circle.",
+          "elements": [
+            {
+              "type": "clip",
+              "q": "data center server",
+              "full": true,
+              "dim": 0.45,
+              "url": "https://cdn.pixabay.com/video/2016/07/25/4001-176277735_large.mp4",
+              "clipSeconds": 30,
+              "credit": "Pixabay #4001 by FindingFootage"
+            },
+            {
+              "type": "write",
+              "text": "BILLIONS IN CHIPS",
+              "font": "marker",
+              "size": 120,
+              "color": "white",
+              "x": 960,
+              "y": 300,
+              "at": "billions"
+            },
+            {
+              "type": "underline",
+              "x": 420,
+              "y": 390,
+              "w": 1080,
+              "color": "yellow"
+            },
+            {
+              "type": "circle",
+              "x": 960,
+              "y": 700,
+              "w": 700,
+              "h": 260,
+              "color": "yellow",
+              "at": "circle"
+            },
+            {
+              "type": "write",
+              "text": "the money goes in a circle",
+              "size": 84,
+              "color": "white",
+              "x": 960,
+              "y": 700
+            }
+          ]
+        },
+        {
+          "text": "Here's the loop. A chip maker invests in an AI lab. The lab rents computing power from a cloud company. And the cloud company spends that money buying the chip maker's chips.",
+          "elements": [
+            {
+              "type": "clip",
+              "q": "stock market screen",
+              "x": 1440,
+              "y": 330,
+              "w": 760,
+              "h": 428,
+              "rotate": 2,
+              "url": "https://cdn.pixabay.com/video/2023/07/19/172192-846731357_medium.mp4",
+              "clipSeconds": 11,
+              "credit": "Pixabay #172192 by Bored_Cat"
+            },
+            {
+              "type": "icon",
+              "name": "cpu",
+              "x": 380,
+              "y": 300,
+              "size": 220,
+              "color": "blue",
+              "at": "chip maker"
+            },
+            {
+              "type": "write",
+              "text": "chip maker",
+              "size": 72,
+              "x": 380,
+              "y": 470
+            },
+            {
+              "type": "arrow",
+              "from": [
+                380,
+                540
+              ],
+              "to": [
+                380,
+                700
+              ],
+              "at": "invests"
+            },
+            {
+              "type": "icon",
+              "name": "brain",
+              "x": 380,
+              "y": 830,
+              "size": 200,
+              "color": "green",
+              "at": "ai lab"
+            },
+            {
+              "type": "arrow",
+              "from": [
+                520,
+                840
+              ],
+              "to": [
+                900,
+                840
+              ],
+              "at": "rents"
+            },
+            {
+              "type": "icon",
+              "name": "cloud",
+              "x": 1060,
+              "y": 830,
+              "size": 200,
+              "color": "orange",
+              "at": "cloud company"
+            },
+            {
+              "type": "arrow",
+              "from": [
+                1060,
+                700
+              ],
+              "to": [
+                520,
+                330
+              ],
+              "bend": 120,
+              "color": "red",
+              "at": "spends"
+            },
+            {
+              "type": "write",
+              "text": "$ back to chips",
+              "size": 72,
+              "color": "red",
+              "x": 930,
+              "y": 560,
+              "at": "buying"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

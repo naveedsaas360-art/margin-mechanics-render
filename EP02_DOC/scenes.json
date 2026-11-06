@@ -1,0 +1,2312 @@
+{
+  "voice": "en-US-AndrewNeural",
+  "rate": "-2%",
+  "music": {
+    "url": "https://incompetech.com/music/royalty-free/mp3-royaltyfree/Investigations.mp3",
+    "volume": 0.07,
+    "credit": "\"Investigations\" Kevin MacLeod (incompetech.com), licensed under Creative Commons: By Attribution 4.0"
+  },
+  "outputs": [
+    {
+      "name": "EP02_The_AI_Money_Loop",
+      "format": "long",
+      "engine": "doc",
+      "scenes": [
+        {
+          "chapter": "The trillion-dollar week",
+          "text": "In just a few days at the end of October, chip stocks lost roughly a trillion dollars in value. Intel fell almost thirty percent in a single day, its worst day in decades.",
+          "elements": [
+            {
+              "type": "shot",
+              "q": "stock market sell-off red",
+              "pixabay_id": 338956,
+              "url": "https://cdn.pixabay.com/video/2026/03/08/338956_large.mp4",
+              "clipSeconds": 8,
+              "credit": "Pixabay #338956 by MrWashingt0n",
+              "thumb": "https://cdn.pixabay.com/video/2026/03/08/338956_large.jpg",
+              "kind": "video"
+            },
+            {
+              "type": "lower",
+              "text": "Late October 2026",
+              "sub": "AI chip stocks",
+              "x": 110,
+              "y": 110
+            },
+            {
+              "type": "shot",
+              "img": "New York Stock Exchange",
+              "at": "chip stocks",
+              "move": "left",
+              "dim": 0.35,
+              "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/New_York_Stock_Exchange_August_2017_02.jpg/3840px-New_York_Stock_Exchange_August_2017_02.jpg",
+              "credit": "\"New York Stock Exchange August 2017 02\" by Arild Vågen, CC BY-SA 4.0, via wikimedia",
+              "thumb": "https://api.openverse.org/v1/images/42a02058-d721-467b-8e25-8b1b75f29adf/thumb/",
+              "kind": "image"
+            },
+            {
+              "type": "stat",
+              "value": 1,
+              "x": 960,
+              "y": 560,
+              "prefix": "-$",
+              "suffix": " TRILLION",
+              "label": "chip stocks, in days (estimates)",
+              "color": "red",
+              "at": "lost",
+              "until_at": "intel"
+            },
+            {
+              "type": "shot",
+              "img": "Intel headquarters",
+              "at": "intel",
+              "move": "right",
+              "dim": 0.3,
+              "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Intel_Headquarters_in_2023.jpg/3840px-Intel_Headquarters_in_2023.jpg",
+              "credit": "\"Intel Headquarters in 2023\" by Coolcaesar, CC BY-SA 4.0, via wikimedia",
+              "thumb": "https://api.openverse.org/v1/images/eecbcb54-06d4-49f4-9d15-f211c571d07e/thumb/",
+              "kind": "image"
+            },
+            {
+              "type": "headline",
+              "source": "CNBC · Oct 29, 2026",
+              "text": "Intel stock plunges as chipmaker issues weak forecast",
+              "x": 960,
+              "y": 430,
+              "at": "intel",
+              "w": 1150
+            },
+            {
+              "type": "stat",
+              "value": 28.6,
+              "x": 960,
+              "y": 820,
+              "prefix": "-",
+              "suffix": "%",
+              "decimals": 1,
+              "label": "Intel, in one day: worst in decades",
+              "color": "red",
+              "w": 900,
+              "size": 150,
+              "at": "single day"
+            }
+          ]
+        },
+        {
+          "text": "But the strange part isn't the crash. It's where a lot of that money came from in the first place. Because when you follow it, some of it goes around in a circle.",
+          "elements": [
+            {
+              "type": "shot",
+              "q": "money counting dollar bills",
+              "dim": 0.3,
+              "url": "https://cdn.pixabay.com/video/2023/03/06/153460-805688493_large.mp4",
+              "clipSeconds": 9,
+              "credit": "Pixabay #153460 by 34168960",
+              "thumb": "https://cdn.pixabay.com/video/2023/03/06/153460-805688493_large.jpg",
+              "kind": "video"
+            },
+            {
+              "type": "title",
+              "text": "The strange part isn't the *crash*",
+              "x": 960,
+              "y": 520,
+              "size": 92,
+              "at": "strange",
+              "until_at": "came from"
+            },
+            {
+              "type": "shot",
+              "q": "cash flow bank transfer money",
+              "at": "came from",
+              "move": "left",
+              "dim": 0.4,
+              "url": "https://cdn.pixabay.com/video/2019/01/20/20857-312437286_large.mp4",
+              "clipSeconds": 23,
+              "credit": "Pixabay #20857 by RoyBuri",
+              "thumb": "https://cdn.pixabay.com/video/2019/01/20/20857-312437286_large.jpg",
+              "kind": "video"
+            },
+            {
+              "type": "title",
+              "text": "Follow the *money*",
+              "x": 960,
+              "y": 500,
+              "size": 120,
+              "at": "follow it"
+            },
+            {
+              "type": "caption",
+              "text": "some of it goes around in a circle",
+              "x": 960,
+              "y": 650,
+              "size": 48,
+              "at": "goes around"
+            }
+          ]
+        },
+        {
+          "text": "By the end of this video, you'll understand the loop, why it made the AI boom look even bigger than it was, and the three signals that tell you whether this ends in a soft landing or a real bust.",
+          "elements": [
+            {
+              "type": "shot",
+              "q": "artificial intelligence robot hand",
+              "dim": 0.45,
+              "url": "https://cdn.pixabay.com/video/2025/05/17/279625_large.mp4",
+              "clipSeconds": 12,
+              "credit": "Pixabay #279625 by fspik_now",
+              "thumb": "https://cdn.pixabay.com/video/2025/05/17/279625_large.jpg",
+              "kind": "video"
+            },
+            {
+              "type": "title",
+              "text": "In this video",
+              "x": 960,
+              "y": 200,
+              "size": 64,
+              "until_at": "soft landing"
+            },
+            {
+              "type": "title",
+              "text": "1  How the *money loop* works",
+              "x": 900,
+              "y": 400,
+              "size": 64,
+              "w": 1500,
+              "align": "left",
+              "at": "the loop",
+              "until_at": "soft landing"
+            },
+            {
+              "type": "shot",
+              "q": "data center aerial view",
+              "at": "bigger",
+              "move": "right",
+              "dim": 0.55,
+              "url": "https://cdn.pixabay.com/video/2018/02/03/14088-254146901_large.mp4",
+              "clipSeconds": 15,
+              "credit": "Pixabay #14088 by Wowa84",
+              "thumb": "https://cdn.pixabay.com/video/2018/02/03/14088-254146901_large.jpg",
+              "kind": "video"
+            },
+            {
+              "type": "title",
+              "text": "2  Why the boom looked *bigger*",
+              "x": 900,
+              "y": 540,
+              "size": 64,
+              "w": 1500,
+              "align": "left",
+              "at": "bigger",
+              "until_at": "soft landing"
+            },
+            {
+              "type": "title",
+              "text": "3  Three signals to *watch*",
+              "x": 900,
+              "y": 680,
+              "size": 64,
+              "w": 1500,
+              "align": "left",
+              "at": "three signals",
+              "until_at": "soft landing"
+            },
+            {
+              "type": "shot",
+              "q": "airplane landing",
+              "at": "soft landing",
+              "pick": 1,
+              "dim": 0.55,
+              "url": "https://cdn.pixabay.com/video/2020/02/27/32945-395456395_large.mp4",
+              "clipSeconds": 36,
+              "credit": "Pixabay #32945 by Stuck1",
+              "thumb": "https://cdn.pixabay.com/video/2020/02/27/32945-395456395_large.jpg",
+              "kind": "video"
+            },
+            {
+              "type": "title",
+              "text": "Soft landing, or real *bust*?",
+              "x": 960,
+              "y": 540,
+              "size": 96,
+              "hl": "red",
+              "at": "soft landing"
+            }
+          ]
+        },
+        {
+          "chapter": "The biggest building spree in history",
+          "text": "Start with the spending. Microsoft, Alphabet, Amazon and Meta are on track to spend more than seven hundred billion dollars this year, mostly on data centers and the chips inside them.",
+          "elements": [
+            {
+              "type": "shot",
+              "q": "data center server room",
+              "dim": 0.35,
+              "url": "https://cdn.pixabay.com/video/2026/10/02/380334_large.mp4",
+              "clipSeconds": 8,
+              "credit": "Pixabay #380334 by MrWashingt0n",
+              "thumb": "https://cdn.pixabay.com/video/2026/10/02/380334_large.jpg",
+              "kind": "video"
+            },
+            {
+              "type": "title",
+              "text": "Start with the *spending*",
+              "x": 960,
+              "y": 520,
+              "size": 100,
+              "at": "start with",
+              "until_at": "microsoft"
+            },
+            {
+              "type": "shot",
+              "img": "Microsoft headquarters Redmond",
+              "at": "microsoft",
+              "move": "left",
+              "dim": 0.3,
+              "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Building92microsoft.jpg/3840px-Building92microsoft.jpg",
+              "credit": "\"File:Building92microsoft.jpg\" by Coolcaesar, CC BY-SA 4.0, via wikimedia",
+              "thumb": "https://api.openverse.org/v1/images/a8963624-3f69-47fc-982f-00dff4f46227/thumb/",
+              "kind": "image"
+            },
+            {
+              "type": "lower",
+              "text": "Microsoft",
+              "x": 110,
+              "y": 880,
+              "at": "microsoft",
+              "until_at": "alphabet"
+            },
+            {
+              "type": "shot",
+              "img": "Googleplex",
+              "at": "alphabet",
+              "move": "right",
+              "dim": 0.3,
+              "url": "https://upload.wikimedia.org/wikipedia/commons/3/32/Googleplex_HQ_%28cropped%29.jpg",
+              "credit": "\"Googleplex HQ (cropped)\" by The Pancake of Heaven!, CC BY-SA 4.0, via wikimedia",
+              "thumb": "https://api.openverse.org/v1/images/85a2e487-6d81-4001-96b3-2648eec50477/thumb/",
+              "kind": "image"
+            },
+            {
+              "type": "lower",
+              "text": "Alphabet",
+              "x": 110,
+              "y": 880,
+              "at": "alphabet",
+              "until_at": "amazon"
+            },
+            {
+              "type": "shot",
+              "img": "Amazon Spheres Seattle",
+              "at": "amazon",
+              "move": "left",
+              "dim": 0.3,
+              "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/2024-12-21%2C_Amazon_Spheres_%28Seattle%29%2C_170559.jpg/3840px-2024-12-21%2C_Amazon_Spheres_%28Seattle%29%2C_170559.jpg",
+              "credit": "\"2024-12-21, Amazon Spheres (Seattle), 170559\" by Steven Pavlov, CC BY-SA 4.0, via wikimedia",
+              "thumb": "https://api.openverse.org/v1/images/0223f13d-a1c0-46f0-92b6-cf1410742909/thumb/",
+              "kind": "image"
+            },
+            {
+              "type": "lower",
+              "text": "Amazon",
+              "x": 110,
+              "y": 880,
+              "at": "amazon",
+              "until_at": "meta are"
+            },
+            {
+              "type": "shot",
+              "img": "Meta headquarters Menlo Park",
+              "at": "meta are",
+              "move": "right",
+              "dim": 0.3,
+              "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Meta_Platforms_Headquarters_Menlo_Park_California.jpg/3840px-Meta_Platforms_Headquarters_Menlo_Park_California.jpg",
+              "credit": "\"Meta Platforms Headquarters Menlo Park California\" by LPS.1, CC0 1.0, via wikimedia",
+              "thumb": "https://api.openverse.org/v1/images/b33ff932-f665-4e87-ae66-464ce247a7fc/thumb/",
+              "kind": "image"
+            },
+            {
+              "type": "lower",
+              "text": "Meta",
+              "x": 110,
+              "y": 880,
+              "at": "meta are",
+              "until_at": "seven hundred"
+            },
+            {
+              "type": "shot",
+              "q": "server racks data center lights",
+              "at": "seven hundred",
+              "dim": 0.4,
+              "url": "https://cdn.pixabay.com/video/2018/03/09/14900-259623335_large.mp4",
+              "clipSeconds": 24,
+              "credit": "Pixabay #14900 by cipnt",
+              "thumb": "https://cdn.pixabay.com/video/2018/03/09/14900-259623335_large.jpg",
+              "kind": "video"
+            },
+            {
+              "type": "stat",
+              "value": 700,
+              "x": 960,
+              "y": 500,
+              "prefix": "$",
+              "suffix": "B+",
+              "label": "Big Tech spending, 2026",
+              "at": "seven hundred"
+            },
+            {
+              "type": "shot",
+              "q": "computer chip macro",
+              "at": "chips inside",
+              "dim": 0.45,
+              "url": "https://cdn.pixabay.com/video/2017/12/18/13461-248644882_large.mp4",
+              "clipSeconds": 11,
+              "credit": "Pixabay #13461 by onijake",
+              "thumb": "https://cdn.pixabay.com/video/2017/12/18/13461-248644882_large.jpg",
+              "kind": "video"
+            },
+            {
+              "type": "caption",
+              "text": "mostly data centers, and the chips inside them",
+              "x": 960,
+              "y": 760,
+              "size": 46,
+              "at": "data centers"
+            }
+          ]
+        },
+        {
+          "text": "Alphabet alone guided to around two hundred billion. Meta, up to one hundred forty-five. Microsoft, about one hundred seventy. And next year, the total is expected to top one trillion dollars.",
+          "elements": [
+            {
+              "type": "shot",
+              "q": "construction site crane timelapse",
+              "dim": 0.5,
+              "url": "https://cdn.pixabay.com/video/2016/07/08/3741-174188012_large.mp4",
+              "clipSeconds": 20,
+              "credit": "Pixabay #3741 by bellergy",
+              "thumb": "https://cdn.pixabay.com/video/2016/07/08/3741-174188012_large.jpg",
+              "kind": "video"
+            },
+            {
+              "type": "chart",
+              "data": [
+                {
+                  "label": "Alphabet",
+                  "value": 200,
+                  "valueLabel": "~$200B",
+                  "color": "blue"
+                },
+                {
+                  "label": "Meta",
+                  "value": 145,
+                  "valueLabel": "≤ $145B",
+                  "color": "yellow"
+                },
+                {
+                  "label": "Microsoft",
+                  "value": 170,
+                  "valueLabel": "~$170B",
+                  "color": "green"
+                }
+              ],
+              "title": "2026 spending plans",
+              "w": 1300,
+              "h": 640,
+              "dur": 5.5,
+              "at": "alphabet alone",
+              "until_at": "next year"
+            },
+            {
+              "type": "shot",
+              "q": "city skyline night timelapse",
+              "at": "next year",
+              "dim": 0.45,
+              "url": "https://cdn.pixabay.com/video/2025/12/29/324817_large.mp4",
+              "clipSeconds": 8,
+              "credit": "Pixabay #324817 by Solarselle77",
+              "thumb": "https://cdn.pixabay.com/video/2025/12/29/324817_large.jpg",
+              "kind": "video"
+            },
+            {
+              "type": "stat",
+              "value": 1,
+              "x": 960,
+              "y": 520,
+              "prefix": "$",
+              "suffix": " TRILLION+",
+              "label": "expected next year",
+              "at": "next year"
+            }
+          ]
+        },
+        {
+          "text": "To put that in perspective: that's more than most countries produce in a year, spent on buildings full of computers, by four companies.",
+          "elements": [
+            {
+              "type": "shot",
+              "q": "earth globe rotating space",
+              "dim": 0.4,
+              "url": "https://cdn.pixabay.com/video/2016/01/29/1992-153555258_large.mp4",
+              "clipSeconds": 30,
+              "credit": "Pixabay #1992 by bellergy",
+              "thumb": "https://cdn.pixabay.com/video/2016/01/29/1992-153555258_large.jpg",
+              "kind": "video"
+            },
+            {
+              "type": "title",
+              "text": "More than most *countries* produce in a year",
+              "x": 960,
+              "y": 500,
+              "size": 84,
+              "at": "countries",
+              "until_at": "four companies"
+            },
+            {
+              "type": "shot",
+              "q": "aerial data center construction",
+              "at": "buildings full",
+              "dim": 0.45,
+              "url": "https://cdn.pixabay.com/video/2018/02/03/14088-254146901_large.mp4",
+              "clipSeconds": 15,
+              "credit": "Pixabay #14088 by Wowa84",
+              "thumb": "https://cdn.pixabay.com/video/2018/02/03/14088-254146901_large.jpg",
+              "kind": "video"
+            },
+            {
+              "type": "title",
+              "text": "Spent by *4 companies*",
+              "x": 960,
+              "y": 540,
+              "size": 110,
+              "at": "four companies"
+            }
+          ]
+        },
+        {
+          "text": "So what are they actually buying? A modern AI data center is a warehouse packed with racks of specialized chips called GPUs, wired together so thousands of them can work on one problem at once. Then you need cooling, because those chips run hot, and enormous amounts of electricity. The chips are by far the most expensive part, and that's what makes this story so interesting.",
+          "elements": [
+            {
+              "type": "shot",
+              "q": "server room data center",
+              "pick": 1,
+              "dim": 0.35,
+              "url": "https://cdn.pixabay.com/video/2025/06/19/286689_large.mp4",
+              "clipSeconds": 9,
+              "credit": "Pixabay #286689 by izhar-ahamed",
+              "thumb": "https://cdn.pixabay.com/video/2025/06/19/286689_large.jpg",
+              "kind": "video"
+            },
+            {
+              "type": "title",
+              "text": "Inside an AI *data center*",
+              "x": 960,
+              "y": 200,
+              "size": 72,
+              "until_at": "cooling"
+            },
+            {
+              "type": "lower",
+              "text": "Thousands of GPUs",
+              "sub": "wired to work as one",
+              "x": 110,
+              "y": 860,
+              "at": "gpus",
+              "until_at": "cooling"
+            },
+            {
+              "type": "shot",
+              "q": "computer cooling fan",
+              "at": "cooling",
+              "dim": 0.4,
+              "url": "https://cdn.pixabay.com/video/2017/03/01/8064-206468120_large.mp4",
+              "clipSeconds": 7,
+              "credit": "Pixabay #8064 by Felix-Mittermeier",
+              "thumb": "https://cdn.pixabay.com/video/2017/03/01/8064-206468120_large.jpg",
+              "kind": "video"
+            },
+            {
+              "type": "lower",
+              "text": "Cooling",
+              "sub": "the chips run hot",
+              "x": 110,
+              "y": 860,
+              "at": "cooling",
+              "until_at": "electricity"
+            },
+            {
+              "type": "shot",
+              "q": "electricity power lines",
+              "at": "electricity",
+              "dim": 0.4,
+              "url": "https://cdn.pixabay.com/video/2021/10/07/91282-629546524_large.mp4",
+              "clipSeconds": 16,
+              "credit": "Pixabay #91282 by Kaffeesüchtig",
+              "thumb": "https://cdn.pixabay.com/video/2021/10/07/91282-629546524_large.jpg",
+              "kind": "video"
+            },
+            {
+              "type": "lower",
+              "text": "Electricity",
+              "sub": "enormous amounts",
+              "x": 110,
+              "y": 860,
+              "at": "electricity",
+              "until_at": "most expensive"
+            },
+            {
+              "type": "shot",
+              "q": "computer chip circuit board",
+              "at": "most expensive",
+              "dim": 0.45,
+              "url": "https://cdn.pixabay.com/video/2023/09/12/180203-863760421_large.mp4",
+              "clipSeconds": 32,
+              "credit": "Pixabay #180203 by AdisResic",
+              "thumb": "https://cdn.pixabay.com/video/2023/09/12/180203-863760421_large.jpg",
+              "kind": "video"
+            },
+            {
+              "type": "title",
+              "text": "The chips are the *expensive* part",
+              "x": 960,
+              "y": 520,
+              "size": 88,
+              "at": "most expensive"
+            }
+          ]
+        },
+        {
+          "chapter": "Why spend like this?",
+          "text": "Why would anyone spend like this? Because to the people running these companies, the bigger risk is being too slow. Mark Zuckerberg reportedly put it this way: if Meta ends up misspending a couple of hundred billion dollars, that would be unfortunate, but falling behind in AI would be worse. Every company is thinking the same thing. And when everyone is afraid of being last, nobody wants to be the first to stop spending.",
+          "elements": [
+            {
+              "type": "shot",
+              "img": "Mark Zuckerberg",
+              "dim": 0.4,
+              "url": "https://upload.wikimedia.org/wikipedia/commons/f/f6/Mark_Zuckerberg_-_South_by_Southwest_2008.jpg",
+              "credit": "\"Mark Zuckerberg - South by Southwest 2008\" by Jason McELweenie, CC BY 2.0, via wikimedia",
+              "thumb": "https://api.openverse.org/v1/images/d4246995-0353-4d6b-9def-866f15e693c3/thumb/",
+              "kind": "image"
+            },
+            {
+              "type": "title",
+              "text": "Why spend like *this*?",
+              "x": 960,
+              "y": 200,
+              "size": 80,
+              "until_at": "misspending"
+            },
+            {
+              "type": "headline",
+              "source": "Mark Zuckerberg (paraphrased)",
+              "text": "Misspending a couple hundred billion would be unfortunate. Falling behind would be worse.",
+              "x": 960,
+              "y": 470,
+              "at": "misspending",
+              "w": 1250,
+              "size": 50,
+              "color": "blue"
+            },
+            {
+              "type": "shot",
+              "q": "race car start",
+              "at": "every company",
+              "dim": 0.45,
+              "url": "https://cdn.pixabay.com/video/2015/11/09/1295-145209438_large.mp4",
+              "clipSeconds": 10,
+              "credit": "Pixabay #1295 by Vimeo-Free-Videos",
+              "thumb": "https://cdn.pixabay.com/video/2015/11/09/1295-145209438_large.jpg",
+              "kind": "video"
+            },
+            {
+              "type": "title",
+              "text": "Nobody wants to stop *first*",
+              "x": 960,
+              "y": 540,
+              "size": 100,
+              "at": "first to stop"
+            }
+          ]
+        },
+        {
+          "text": "And this isn't just about chips. These data centers need staggering amounts of electricity. AI deals are now measured in gigawatts. One gigawatt is roughly enough power for several hundred thousand American homes. So a ten gigawatt deal means building computer warehouses that use as much electricity as a few million homes, and power plants and transmission lines to feed them.",
+          "elements": [
+            {
+              "type": "shot",
+              "q": "power plant cooling towers",
+              "dim": 0.4,
+              "url": "https://cdn.pixabay.com/video/2019/11/24/29413-375376265_large.mp4",
+              "clipSeconds": 6,
+              "credit": "Pixabay #29413 by adege",
+              "thumb": "https://cdn.pixabay.com/video/2019/11/24/29413-375376265_large.jpg",
+              "kind": "video"
+            },
+            {
+              "type": "title",
+              "text": "Measured in *gigawatts*",
+              "x": 960,
+              "y": 520,
+              "size": 110,
+              "at": "measured",
+              "until_at": "one gigawatt"
+            },
+            {
+              "type": "shot",
+              "q": "electricity transmission lines sunset",
+              "at": "one gigawatt",
+              "dim": 0.4,
+              "url": "https://cdn.pixabay.com/video/2016/02/13/2151-155327577_large.mp4",
+              "clipSeconds": 19,
+              "credit": "Pixabay #2151 by FindingFootage",
+              "thumb": "https://cdn.pixabay.com/video/2016/02/13/2151-155327577_large.jpg",
+              "kind": "video"
+            },
+            {
+              "type": "stat",
+              "value": 1,
+              "x": 960,
+              "y": 460,
+              "suffix": " GIGAWATT",
+              "label": "≈ several hundred thousand US homes",
+              "at": "one gigawatt",
+              "until_at": "ten gigawatt"
+            },
+            {
+              "type": "stat",
+              "value": 10,
+              "x": 960,
+              "y": 460,
+              "suffix": " GIGAWATTS",
+              "label": "≈ a few million homes",
+              "color": "red",
+              "at": "ten gigawatt"
+            },
+            {
+              "type": "caption",
+              "text": "plus new power plants and transmission lines to feed them",
+              "x": 960,
+              "y": 760,
+              "size": 44,
+              "at": "power plants"
+            }
+          ]
+        },
+        {
+          "text": "And here's where it gets interesting. A big share of that money ends up at one company: the one that makes the chips.",
+          "elements": [
+            {
+              "type": "shot",
+              "q": "computer chip macro",
+              "pick": 1,
+              "dim": 0.45,
+              "url": "https://cdn.pixabay.com/video/2023/10/31/187225-879649787_medium.mp4",
+              "clipSeconds": 20,
+              "credit": "Pixabay #187225 by DJStrawberry_4111",
+              "thumb": "https://cdn.pixabay.com/video/2023/10/31/187225-879649787_medium.jpg",
+              "kind": "video"
+            },
+            {
+              "type": "title",
+              "text": "Where does the money *go*?",
+              "x": 960,
+              "y": 520,
+              "size": 100,
+              "until_at": "one company"
+            },
+            {
+              "type": "shot",
+              "img": "Nvidia headquarters",
+              "at": "one company",
+              "move": "in",
+              "dim": 0.35,
+              "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/NVIDIA_Headquarters.jpg/3840px-NVIDIA_Headquarters.jpg",
+              "credit": "\"NVIDIA Headquarters\" by Coolcaesar, CC BY-SA 4.0, via wikimedia",
+              "thumb": "https://api.openverse.org/v1/images/617cd75a-b4de-4e8b-b049-7c31683011d5/thumb/",
+              "kind": "image"
+            },
+            {
+              "type": "title",
+              "text": "The *chip maker*",
+              "x": 960,
+              "y": 880,
+              "size": 96,
+              "at": "makes the chips"
+            }
+          ]
+        },
+        {
+          "text": "Nvidia makes the chips most of the world's AI is built on, along with the software developers have used for years to program them. That's why buyers have had so few alternatives, and why Nvidia became one of the most valuable companies on Earth. Keep that in mind, because it explains the deals you're about to see.",
+          "elements": [
+            {
+              "type": "shot",
+              "img": "Jensen Huang",
+              "dim": 0.35,
+              "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Jensen_Huang_-_RTX_5070_Laptop_-_Nvidia_Keynote_-_CES_2025_Las_Vegas.jpg/3840px-Jensen_Huang_-_RTX_5070_Laptop_-_Nvidia_Keynote_-_CES_2025_Las_Vegas.jpg",
+              "credit": "\"Jensen Huang - RTX 5070 Laptop - Nvidia Keynote - CES 2025 Las Vegas\" by Pronoia, CC0 1.0, via wikimedia",
+              "thumb": "https://api.openverse.org/v1/images/390889ee-9242-47de-b27f-118ccc0e915a/thumb/",
+              "kind": "image"
+            },
+            {
+              "type": "lower",
+              "text": "Nvidia",
+              "sub": "the chips most AI is built on",
+              "x": 110,
+              "y": 860,
+              "until_at": "software"
+            },
+            {
+              "type": "shot",
+              "q": "circuit board technology",
+              "at": "software",
+              "dim": 0.45,
+              "url": "https://cdn.pixabay.com/video/2023/08/19/176794-856056410_large.mp4",
+              "clipSeconds": 30,
+              "credit": "Pixabay #176794 by olenchic",
+              "thumb": "https://cdn.pixabay.com/video/2023/08/19/176794-856056410_large.jpg",
+              "kind": "video"
+            },
+            {
+              "type": "title",
+              "text": "The chips *+* the software",
+              "x": 960,
+              "y": 500,
+              "size": 96,
+              "at": "software",
+              "until_at": "alternatives"
+            },
+            {
+              "type": "shot",
+              "img": "Nvidia headquarters",
+              "at": "alternatives",
+              "pick": 1,
+              "dim": 0.4,
+              "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/2788-2888_San_Tomas_Expwy.jpg/3840px-2788-2888_San_Tomas_Expwy.jpg",
+              "credit": "\"2788-2888 San Tomas Expwy\" by Coolcaesar, CC BY-SA 4.0, via wikimedia",
+              "thumb": "https://api.openverse.org/v1/images/eab565ce-25be-459b-ac02-8441d11fde6f/thumb/",
+              "kind": "image"
+            },
+            {
+              "type": "title",
+              "text": "Few *alternatives*",
+              "x": 960,
+              "y": 520,
+              "size": 120,
+              "at": "alternatives"
+            }
+          ]
+        },
+        {
+          "chapter": "The loop",
+          "text": "Now meet the loop. Picture three players. A chip maker, like Nvidia or AMD. An AI lab, like OpenAI. And a cloud company, like Oracle or CoreWeave, that owns the data centers.",
+          "elements": [
+            {
+              "type": "panel"
+            },
+            {
+              "type": "title",
+              "text": "The three *players*",
+              "x": 960,
+              "y": 70,
+              "size": 60
+            },
+            {
+              "type": "loop",
+              "nodes": [
+                {
+                  "label": "CHIP MAKER",
+                  "sub": "Nvidia · AMD",
+                  "color": "blue"
+                },
+                {
+                  "label": "AI LAB",
+                  "sub": "OpenAI",
+                  "color": "green"
+                },
+                {
+                  "label": "CLOUD",
+                  "sub": "Oracle · CoreWeave",
+                  "color": "yellow"
+                }
+              ],
+              "x": 960,
+              "y": 585,
+              "r": 300,
+              "labels": [
+                "invests $",
+                "rents computing",
+                "buys chips"
+              ],
+              "reveal": [
+                999,
+                999,
+                999
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Step one: the chip maker invests money in the AI lab. Step two: the AI lab signs a giant contract to rent computing power from the cloud company. Step three: the cloud company uses that contract to raise money and buy chips from the chip maker.",
+          "elements": [
+            {
+              "type": "panel"
+            },
+            {
+              "type": "loop",
+              "nodes": [
+                {
+                  "label": "CHIP MAKER",
+                  "sub": "Nvidia · AMD",
+                  "color": "blue"
+                },
+                {
+                  "label": "AI LAB",
+                  "sub": "OpenAI",
+                  "color": "green"
+                },
+                {
+                  "label": "CLOUD",
+                  "sub": "Oracle · CoreWeave",
+                  "color": "yellow"
+                }
+              ],
+              "x": 960,
+              "y": 585,
+              "r": 300,
+              "labels": [
+                "invests $",
+                "rents computing",
+                "buys chips"
+              ],
+              "reveal_at": [
+                "step one",
+                "step two",
+                "step three"
+              ]
+            },
+            {
+              "type": "title",
+              "text": "The *loop*",
+              "x": 960,
+              "y": 70,
+              "size": 60
+            }
+          ]
+        },
+        {
+          "text": "And look what just happened. The chip maker's investment came back to it as revenue. The same dollars showed up as an investment on one side and as sales on the other.",
+          "elements": [
+            {
+              "type": "panel"
+            },
+            {
+              "type": "loop",
+              "nodes": [
+                {
+                  "label": "CHIP MAKER",
+                  "sub": "Nvidia · AMD",
+                  "color": "blue"
+                },
+                {
+                  "label": "AI LAB",
+                  "sub": "OpenAI",
+                  "color": "green"
+                },
+                {
+                  "label": "CLOUD",
+                  "sub": "Oracle · CoreWeave",
+                  "color": "yellow"
+                }
+              ],
+              "x": 960,
+              "y": 585,
+              "r": 300,
+              "labels": [
+                "invests $",
+                "rents computing",
+                "buys chips"
+              ],
+              "reveal": [
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "type": "title",
+              "text": "Same dollars, counted *twice*?",
+              "x": 960,
+              "y": 1000,
+              "size": 60,
+              "at": "same dollars"
+            }
+          ]
+        },
+        {
+          "text": "This isn't a theory. In September twenty twenty-five, Nvidia announced it could invest up to one hundred billion dollars in OpenAI, while OpenAI planned to fill data centers with Nvidia chips. That plan was later reportedly scaled back to a thirty billion dollar stake. But the pattern stayed the same.",
+          "elements": [
+            {
+              "type": "shot",
+              "img": "Jensen Huang",
+              "pick": 1,
+              "dim": 0.45,
+              "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Jensen_huang_stanford_2026-04-30_029.jpg/3840px-Jensen_huang_stanford_2026-04-30_029.jpg",
+              "credit": "\"Jensen huang stanford 2026-04-30 029\" by Anderseidesvik, CC BY-SA 4.0, via wikimedia",
+              "thumb": "https://api.openverse.org/v1/images/3e563938-192b-41d9-9088-7ef1382380c0/thumb/",
+              "kind": "image"
+            },
+            {
+              "type": "headline",
+              "source": "Sept 2025",
+              "text": "Nvidia plans to invest up to $100 billion in OpenAI",
+              "x": 960,
+              "y": 330,
+              "at": "nvidia announced",
+              "w": 1150
+            },
+            {
+              "type": "stat",
+              "value": 100,
+              "x": 960,
+              "y": 700,
+              "prefix": "$",
+              "suffix": "B",
+              "label": "up to: Nvidia → OpenAI",
+              "w": 900,
+              "size": 170,
+              "at": "one hundred billion",
+              "until_at": "scaled back"
+            },
+            {
+              "type": "shot",
+              "q": "artificial intelligence network technology",
+              "at": "scaled back",
+              "dim": 0.45,
+              "url": "https://cdn.pixabay.com/video/2024/03/12/203986-923133871_large.mp4",
+              "clipSeconds": 6,
+              "credit": "Pixabay #203986 by olenchic",
+              "thumb": "https://cdn.pixabay.com/video/2024/03/12/203986-923133871_large.jpg",
+              "kind": "video"
+            },
+            {
+              "type": "lower",
+              "text": "Later: a reported $30B stake",
+              "sub": "the pattern stayed the same",
+              "x": 110,
+              "y": 860,
+              "at": "scaled back"
+            }
+          ]
+        },
+        {
+          "text": "Weeks later, AMD gave OpenAI the right to buy up to one hundred sixty million AMD shares, about ten percent of the company, as part of a deal for six gigawatts of AMD chips.",
+          "elements": [
+            {
+              "type": "shot",
+              "img": "AMD headquarters",
+              "dim": 0.4,
+              "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/AMD_headquarter_20240318.jpg/3840px-AMD_headquarter_20240318.jpg",
+              "credit": "\"AMD headquarter 20240318\" by Lijiaxuan, CC0 1.0, via wikimedia",
+              "thumb": "https://api.openverse.org/v1/images/44e07fc1-adba-4e44-a44c-9761cd4068a6/thumb/",
+              "kind": "image"
+            },
+            {
+              "type": "lower",
+              "text": "AMD → OpenAI",
+              "x": 110,
+              "y": 110
+            },
+            {
+              "type": "stat",
+              "value": 160,
+              "x": 960,
+              "y": 500,
+              "suffix": "M SHARES",
+              "label": "right to buy, ≈ 10% of AMD",
+              "at": "one hundred sixty"
+            },
+            {
+              "type": "shot",
+              "img": "Lisa Su",
+              "at": "six gigawatts",
+              "dim": 0.4,
+              "url": "https://upload.wikimedia.org/wikipedia/commons/6/60/AMD_CEO_Lisa_Su_20150603.jpg",
+              "credit": "\"File:AMD CEO Lisa Su 20150603.jpg\" by Gene Wang, CC BY 2.0, via wikimedia",
+              "thumb": "https://api.openverse.org/v1/images/6237b11b-8d0b-43fa-a57d-774146f790f8/thumb/",
+              "kind": "image"
+            },
+            {
+              "type": "lower",
+              "text": "6 gigawatts of AMD chips",
+              "x": 110,
+              "y": 860,
+              "at": "six gigawatts"
+            }
+          ]
+        },
+        {
+          "text": "OpenAI also reportedly agreed to buy around three hundred billion dollars of computing from Oracle over about five years. And Oracle, to deliver it, has to buy enormous amounts of chips.",
+          "elements": [
+            {
+              "type": "shot",
+              "img": "Oracle headquarters",
+              "dim": 0.4,
+              "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Oracle_Headquarters_Redwood_Shores.jpg/3840px-Oracle_Headquarters_Redwood_Shores.jpg",
+              "credit": "\"Oracle Headquarters Redwood Shores\" by Håkan Dahlström, CC BY 2.0, via wikimedia",
+              "thumb": "https://api.openverse.org/v1/images/b58cbb09-72b8-4146-ae53-88982574a6df/thumb/",
+              "kind": "image"
+            },
+            {
+              "type": "lower",
+              "text": "OpenAI → Oracle",
+              "sub": "reported deal",
+              "x": 110,
+              "y": 110
+            },
+            {
+              "type": "stat",
+              "value": 300,
+              "x": 960,
+              "y": 500,
+              "prefix": "$",
+              "suffix": "B",
+              "label": "of computing, about 5 years",
+              "at": "three hundred",
+              "until_at": "buy enormous"
+            },
+            {
+              "type": "shot",
+              "q": "server racks data center",
+              "at": "buy enormous",
+              "pick": 1,
+              "dim": 0.4,
+              "url": "https://cdn.pixabay.com/video/2018/03/09/14907-259623341_large.mp4",
+              "clipSeconds": 15,
+              "credit": "Pixabay #14907 by cipnt",
+              "thumb": "https://cdn.pixabay.com/video/2018/03/09/14907-259623341_large.jpg",
+              "kind": "video"
+            },
+            {
+              "type": "title",
+              "text": "…which means buying *chips*",
+              "x": 960,
+              "y": 540,
+              "size": 96,
+              "at": "buy enormous"
+            }
+          ]
+        },
+        {
+          "text": "Altogether, OpenAI's CEO has said the company is looking at about one point four trillion dollars of computing commitments over roughly eight years.",
+          "elements": [
+            {
+              "type": "shot",
+              "img": "Sam Altman",
+              "dim": 0.4,
+              "url": "https://upload.wikimedia.org/wikipedia/commons/7/74/Meeting_with_Masayoshi_Son_and_Sam_Altman_%28February_3%2C_2025%29.jpg",
+              "credit": "\"Meeting with Masayoshi Son and Sam Altman (February 3, 2025)\" by 首相官邸ホームページ, CC BY 4.0, via wikimedia",
+              "thumb": "https://api.openverse.org/v1/images/df805625-20b8-4b41-bd7c-2d8f50ab6d9b/thumb/",
+              "kind": "image"
+            },
+            {
+              "type": "lower",
+              "text": "Sam Altman",
+              "sub": "OpenAI CEO",
+              "x": 110,
+              "y": 110,
+              "until_at": "one point four"
+            },
+            {
+              "type": "stat",
+              "value": 1.4,
+              "x": 960,
+              "y": 520,
+              "prefix": "$",
+              "suffix": " TRILLION",
+              "decimals": 1,
+              "label": "computing commitments, ~8 years",
+              "at": "one point four"
+            },
+            {
+              "type": "shot",
+              "q": "clock time lapse",
+              "at": "eight years",
+              "dim": 0.5,
+              "url": "https://cdn.pixabay.com/video/2021/01/10/61621-499906216_large.mp4",
+              "clipSeconds": 14,
+              "credit": "Pixabay #61621 by wastedgeneration",
+              "thumb": "https://cdn.pixabay.com/video/2021/01/10/61621-499906216_large.jpg",
+              "kind": "video"
+            }
+          ]
+        },
+        {
+          "chapter": "The gap",
+          "text": "Now compare that with what OpenAI actually earns. At the end of twenty twenty-five, Altman said OpenAI was making about twenty billion dollars a year in revenue.",
+          "elements": [
+            {
+              "type": "panel"
+            },
+            {
+              "type": "title",
+              "text": "Commitments vs. *revenue*",
+              "x": 960,
+              "y": 110,
+              "size": 70
+            },
+            {
+              "type": "chart",
+              "data": [
+                {
+                  "label": "Commitments (~8 yrs)",
+                  "value": 1400,
+                  "valueLabel": "$1.4T",
+                  "color": "red"
+                },
+                {
+                  "label": "Revenue (per year)",
+                  "value": 20,
+                  "valueLabel": "~$20B",
+                  "color": "green"
+                }
+              ],
+              "title": "OpenAI",
+              "y": 580,
+              "w": 1200,
+              "h": 700,
+              "dur": 3.5,
+              "at": "actually earns"
+            }
+          ]
+        },
+        {
+          "text": "That's a seventy to one gap. Even spread over eight years, OpenAI would need its revenue to grow many times over, very fast, just to pay for what it has promised.",
+          "elements": [
+            {
+              "type": "panel"
+            },
+            {
+              "type": "stat",
+              "value": 70,
+              "x": 960,
+              "y": 380,
+              "suffix": " : 1",
+              "label": "commitments vs. yearly revenue",
+              "color": "red",
+              "card": false,
+              "size": 260,
+              "at": "seventy"
+            },
+            {
+              "type": "title",
+              "text": "Even over 8 years: still ~*$175B a year*",
+              "x": 960,
+              "y": 700,
+              "size": 64,
+              "at": "spread over"
+            },
+            {
+              "type": "caption",
+              "text": "revenue would need to grow many times over, fast",
+              "x": 960,
+              "y": 830,
+              "size": 44,
+              "at": "grow many"
+            }
+          ]
+        },
+        {
+          "text": "Here's another way to see it. In late twenty twenty-five, OpenAI said ChatGPT had about eight hundred million weekly users. To cover one hundred seventy-five billion dollars a year, every single one of those users would need to pay roughly eighteen dollars a month. Most of them pay nothing today.",
+          "elements": [
+            {
+              "type": "shot",
+              "q": "people looking at smartphones",
+              "dim": 0.45,
+              "url": "https://cdn.pixabay.com/video/2020/05/04/38084-416330724_large.mp4",
+              "clipSeconds": 8,
+              "credit": "Pixabay #38084 by mephala1980",
+              "thumb": "https://cdn.pixabay.com/video/2020/05/04/38084-416330724_large.jpg",
+              "kind": "video"
+            },
+            {
+              "type": "stat",
+              "value": 800,
+              "x": 960,
+              "y": 480,
+              "suffix": "M",
+              "label": "ChatGPT weekly users (late 2025)",
+              "at": "eight hundred",
+              "until_at": "to cover"
+            },
+            {
+              "type": "stat",
+              "value": 18,
+              "x": 960,
+              "y": 480,
+              "prefix": "≈ $",
+              "suffix": " / MONTH",
+              "label": "from every user, to cover $175B a year",
+              "color": "red",
+              "at": "eighteen dollars"
+            },
+            {
+              "type": "caption",
+              "text": "…and most of them pay nothing today",
+              "x": 960,
+              "y": 760,
+              "size": 50,
+              "at": "nothing"
+            }
+          ]
+        },
+        {
+          "text": "OpenAI's own projections show it losing money for years, before turning profitable around the end of the decade. Even Nvidia's CEO Jensen Huang said in twenty twenty-five that OpenAI doesn't have the money yet.",
+          "elements": [
+            {
+              "type": "shot",
+              "q": "stock market chart red decline",
+              "dim": 0.45,
+              "url": "https://cdn.pixabay.com/video/2023/06/08/166289-834580739_large.mp4",
+              "clipSeconds": 20,
+              "credit": "Pixabay #166289 by Dimitri_K",
+              "thumb": "https://cdn.pixabay.com/video/2023/06/08/166289-834580739_large.jpg",
+              "kind": "video"
+            },
+            {
+              "type": "title",
+              "text": "Losses for *years*",
+              "x": 960,
+              "y": 420,
+              "size": 110,
+              "at": "losing money",
+              "until_at": "money yet"
+            },
+            {
+              "type": "caption",
+              "text": "profit target: around 2030",
+              "x": 960,
+              "y": 560,
+              "size": 48,
+              "at": "end of the decade",
+              "until_at": "money yet"
+            },
+            {
+              "type": "shot",
+              "img": "Jensen Huang",
+              "at": "money yet",
+              "pick": 2,
+              "dim": 0.5,
+              "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Keir_Starmer%2C_Jensen_Huang_-_on_stage_together_at_NVIDIA_event%2C_looking_excited_and_positive_5256_2.jpg/3840px-Keir_Starmer%2C_Jensen_Huang_-_on_stage_together_at_NVIDIA_event%2C_looking_excited_and_positive_5256_2.jpg",
+              "credit": "\"Keir Starmer, Jensen Huang - on stage together at NVIDIA event, looking excited and positive 5256 2\" by LAK7474, CC BY-SA 4.0, via wikimedia",
+              "thumb": "https://api.openverse.org/v1/images/a8bfa9c2-c8a0-4047-b487-2ae00900db80/thumb/",
+              "kind": "image"
+            },
+            {
+              "type": "headline",
+              "source": "Jensen Huang, Nvidia CEO · 2025",
+              "text": "\"OpenAI doesn't have the money yet.\"",
+              "x": 960,
+              "y": 500,
+              "at": "money yet",
+              "w": 1100,
+              "size": 64,
+              "color": "blue"
+            }
+          ]
+        },
+        {
+          "text": "So where does the money come from? Investors, and debt. And this is the part that matters most.",
+          "elements": [
+            {
+              "type": "shot",
+              "img": "Wall Street sign",
+              "dim": 0.4,
+              "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Wall_Street_Sign_%285899884048%29.jpg/3840px-Wall_Street_Sign_%285899884048%29.jpg",
+              "credit": "\"Wall Street Sign (5899884048)\" by Alex Proimos from Sydney, Australia, CC BY 2.0, via wikimedia",
+              "thumb": "https://api.openverse.org/v1/images/e3de4c24-ad56-4612-9b45-c3b51444be36/thumb/",
+              "kind": "image"
+            },
+            {
+              "type": "title",
+              "text": "So where does the money *come from*?",
+              "x": 960,
+              "y": 380,
+              "size": 84,
+              "at": "where does"
+            },
+            {
+              "type": "title",
+              "text": "Investors",
+              "x": 960,
+              "y": 600,
+              "size": 110,
+              "at": "investors"
+            },
+            {
+              "type": "title",
+              "text": "+ *debt*",
+              "x": 960,
+              "y": 740,
+              "size": 110,
+              "hl": "red",
+              "at": "debt"
+            }
+          ]
+        },
+        {
+          "chapter": "The debt layer",
+          "text": "Many of the companies building data centers for AI labs, the so-called neoclouds like CoreWeave, Nebius and IREN, don't have the cash to build on their own. They borrow, often without investment-grade credit ratings.",
+          "elements": [
+            {
+              "type": "shot",
+              "q": "construction site steel building",
+              "dim": 0.45,
+              "url": "https://cdn.pixabay.com/video/2016/07/08/3741-174188012_large.mp4",
+              "clipSeconds": 20,
+              "credit": "Pixabay #3741 by bellergy",
+              "thumb": "https://cdn.pixabay.com/video/2016/07/08/3741-174188012_large.jpg",
+              "kind": "video"
+            },
+            {
+              "type": "title",
+              "text": "The *neoclouds*",
+              "x": 960,
+              "y": 420,
+              "size": 120,
+              "at": "neoclouds"
+            },
+            {
+              "type": "lower",
+              "text": "CoreWeave · Nebius · IREN",
+              "x": 110,
+              "y": 860,
+              "at": "neoclouds"
+            },
+            {
+              "type": "caption",
+              "text": "they borrow, often without investment-grade credit ratings",
+              "x": 960,
+              "y": 600,
+              "size": 48,
+              "at": "investment-grade"
+            }
+          ]
+        },
+        {
+          "text": "As interest rates rose this year, lenders started pulling back. The research firm Gartner even predicts that by twenty thirty, eighty percent of these neocloud companies will be absorbed or gone.",
+          "elements": [
+            {
+              "type": "shot",
+              "q": "stock exchange trading board",
+              "dim": 0.45,
+              "url": "https://cdn.pixabay.com/video/2024/03/15/204306-923909642_large.mp4",
+              "clipSeconds": 14,
+              "credit": "Pixabay #204306 by Natures_Embrace",
+              "thumb": "https://cdn.pixabay.com/video/2024/03/15/204306-923909642_large.jpg",
+              "kind": "video"
+            },
+            {
+              "type": "lower",
+              "text": "Rates up → lenders pull back",
+              "x": 110,
+              "y": 110,
+              "at": "interest rates"
+            },
+            {
+              "type": "stat",
+              "value": 80,
+              "x": 960,
+              "y": 520,
+              "suffix": "%",
+              "label": "of neoclouds absorbed or gone by 2030 (Gartner)",
+              "color": "red",
+              "at": "eighty percent"
+            }
+          ]
+        },
+        {
+          "text": "Think about what that does to the loop. If a cloud company can't borrow, it can't buy chips. If it can't buy chips, the chip maker's sales slow down. And suddenly the loop runs in reverse.",
+          "elements": [
+            {
+              "type": "panel"
+            },
+            {
+              "type": "loop",
+              "nodes": [
+                {
+                  "label": "CHIP MAKER",
+                  "sub": "Nvidia · AMD",
+                  "color": "blue"
+                },
+                {
+                  "label": "AI LAB",
+                  "sub": "OpenAI",
+                  "color": "green"
+                },
+                {
+                  "label": "CLOUD",
+                  "sub": "Oracle · CoreWeave",
+                  "color": "yellow"
+                }
+              ],
+              "x": 960,
+              "y": 585,
+              "r": 300,
+              "labels": [
+                "no loans",
+                "no chip orders",
+                "sales slow"
+              ],
+              "reverse": true,
+              "reveal_at": [
+                "can't borrow",
+                "can't buy chips",
+                "reverse"
+              ]
+            },
+            {
+              "type": "title",
+              "text": "The loop runs in *reverse*",
+              "x": 960,
+              "y": 1000,
+              "size": 60,
+              "hl": "red",
+              "at": "reverse"
+            }
+          ]
+        },
+        {
+          "text": "That's exactly the fear that hit the market last week. Even the giants are feeling it. Alphabet and Meta both reported negative free cash flow, meaning they spent more than their businesses brought in.",
+          "elements": [
+            {
+              "type": "shot",
+              "q": "worried man looking at screen",
+              "dim": 0.4,
+              "url": "https://cdn.pixabay.com/video/2024/03/24/205519-927335684_large.mp4",
+              "clipSeconds": 16,
+              "credit": "Pixabay #205519 by conte_public",
+              "thumb": "https://cdn.pixabay.com/video/2024/03/24/205519-927335684_large.jpg",
+              "kind": "video"
+            },
+            {
+              "type": "title",
+              "text": "The fear, *last week*",
+              "x": 960,
+              "y": 300,
+              "size": 96,
+              "until_at": "negative"
+            },
+            {
+              "type": "title",
+              "text": "Negative free *cash flow*",
+              "x": 960,
+              "y": 500,
+              "size": 100,
+              "hl": "red",
+              "at": "negative"
+            },
+            {
+              "type": "caption",
+              "text": "Alphabet & Meta: spending more than their businesses brought in",
+              "x": 960,
+              "y": 660,
+              "size": 46,
+              "at": "spent more"
+            }
+          ]
+        },
+        {
+          "chapter": "The depreciation problem",
+          "text": "There's one more hidden problem, and it's about time. An AI chip is not a building. It gets outdated fast, because every year a faster chip comes out. Yet the big tech companies spread the cost of their servers over about five to six years in their accounts. If those chips are really worth much less after three years, then today's profits look better than they really are.",
+          "elements": [
+            {
+              "type": "shot",
+              "q": "computer chip macro",
+              "pick": 2,
+              "dim": 0.45,
+              "url": "https://cdn.pixabay.com/video/2020/12/29/60574-495673902_large.mp4",
+              "clipSeconds": 7,
+              "credit": "Pixabay #60574 by Danil_Shostak",
+              "thumb": "https://cdn.pixabay.com/video/2020/12/29/60574-495673902_large.jpg",
+              "kind": "video"
+            },
+            {
+              "type": "title",
+              "text": "The *time* problem",
+              "x": 960,
+              "y": 200,
+              "size": 80,
+              "until_at": "outdated"
+            },
+            {
+              "type": "title",
+              "text": "A new, faster chip *every year*",
+              "x": 960,
+              "y": 480,
+              "size": 84,
+              "at": "outdated",
+              "until_at": "five to six"
+            },
+            {
+              "type": "title",
+              "text": "Accounting life: *5–6 years*",
+              "x": 960,
+              "y": 480,
+              "size": 96,
+              "at": "five to six",
+              "until_at": "three years"
+            },
+            {
+              "type": "title",
+              "text": "Worth much less after *~3*?",
+              "x": 960,
+              "y": 480,
+              "size": 96,
+              "hl": "red",
+              "at": "three years"
+            }
+          ]
+        },
+        {
+          "text": "Now add the debt. A data center builder might borrow money for many years to buy chips that could be obsolete in three. If the chips lose value before the loan is paid back, the lender is left holding a loan backed by old hardware. That's exactly why credit markets are the place to watch.",
+          "elements": [
+            {
+              "type": "shot",
+              "q": "old computer hardware",
+              "dim": 0.45,
+              "url": "https://cdn.pixabay.com/video/2024/09/21/232538_large.mp4",
+              "clipSeconds": 12,
+              "credit": "Pixabay #232538 by Darioguzben",
+              "thumb": "https://cdn.pixabay.com/video/2024/09/21/232538_large.jpg",
+              "kind": "video"
+            },
+            {
+              "type": "lower",
+              "text": "Loan: many years",
+              "x": 110,
+              "y": 700,
+              "color": "red",
+              "at": "borrow money"
+            },
+            {
+              "type": "lower",
+              "text": "Chips: obsolete in ~3?",
+              "x": 110,
+              "y": 840,
+              "color": "blue",
+              "at": "obsolete"
+            },
+            {
+              "type": "title",
+              "text": "A loan backed by *old hardware*",
+              "x": 960,
+              "y": 400,
+              "size": 88,
+              "at": "lender"
+            }
+          ]
+        },
+        {
+          "chapter": "We've seen this before",
+          "text": "If this sounds familiar, it should. In the late nineteen nineties, telecom equipment makers lent money to their own customers so those customers could buy more equipment. It was called vendor financing.",
+          "elements": [
+            {
+              "type": "shot",
+              "q": "telecommunication tower antenna",
+              "dim": 0.45,
+              "url": "https://cdn.pixabay.com/video/2024/06/26/218246_large.mp4",
+              "clipSeconds": 15,
+              "credit": "Pixabay #218246 by useche360",
+              "thumb": "https://cdn.pixabay.com/video/2024/06/26/218246_large.jpg",
+              "kind": "video"
+            },
+            {
+              "type": "title",
+              "text": "We've seen this *before*",
+              "x": 960,
+              "y": 300,
+              "size": 88,
+              "until_at": "lent money"
+            },
+            {
+              "type": "title",
+              "text": "*1999*: the telecom boom",
+              "x": 960,
+              "y": 420,
+              "size": 110,
+              "at": "nineteen nineties",
+              "until_at": "vendor financing"
+            },
+            {
+              "type": "caption",
+              "text": "equipment makers lent money to their own customers",
+              "x": 960,
+              "y": 640,
+              "size": 50,
+              "at": "lent money"
+            },
+            {
+              "type": "title",
+              "text": "\"Vendor *financing*\"",
+              "x": 960,
+              "y": 420,
+              "size": 110,
+              "at": "vendor financing"
+            }
+          ]
+        },
+        {
+          "text": "It made sales look incredible, right until the customers couldn't pay. When the dot-com bubble burst, Cisco, which had briefly been the most valuable company in the world, lost more than eighty percent of its value.",
+          "elements": [
+            {
+              "type": "shot",
+              "q": "stock market chart red decline",
+              "pick": 1,
+              "dim": 0.4,
+              "url": "https://cdn.pixabay.com/video/2022/11/16/139336-772278284_large.mp4",
+              "clipSeconds": 6,
+              "credit": "Pixabay #139336 by Kashif_Hussain",
+              "thumb": "https://cdn.pixabay.com/video/2022/11/16/139336-772278284_large.jpg",
+              "kind": "video"
+            },
+            {
+              "type": "title",
+              "text": "Sales looked *incredible*…",
+              "x": 960,
+              "y": 360,
+              "size": 96,
+              "at": "incredible",
+              "until_at": "couldn't pay"
+            },
+            {
+              "type": "title",
+              "text": "…until customers *couldn't pay*",
+              "x": 960,
+              "y": 360,
+              "size": 96,
+              "hl": "red",
+              "at": "couldn't pay",
+              "until_at": "cisco"
+            },
+            {
+              "type": "lower",
+              "text": "Cisco",
+              "sub": "briefly the world's most valuable company",
+              "x": 110,
+              "y": 110,
+              "at": "cisco"
+            },
+            {
+              "type": "stat",
+              "value": 80,
+              "x": 960,
+              "y": 560,
+              "prefix": "-",
+              "suffix": "%+",
+              "label": "Cisco's value, 2000 → 2002",
+              "color": "red",
+              "at": "eighty percent"
+            }
+          ]
+        },
+        {
+          "text": "To be fair, today is not an exact copy. The biggest buyers, like Microsoft and Alphabet, are hugely profitable companies, and real people are paying for AI products every day. Some economists argue these circular deals simply spread risk around.",
+          "elements": [
+            {
+              "type": "shot",
+              "q": "office workers laptop meeting",
+              "dim": 0.45,
+              "url": "https://cdn.pixabay.com/video/2016/02/29/2340-157269921_large.mp4",
+              "clipSeconds": 44,
+              "credit": "Pixabay #2340 by Life-Of-Vids",
+              "thumb": "https://cdn.pixabay.com/video/2016/02/29/2340-157269921_large.jpg",
+              "kind": "video"
+            },
+            {
+              "type": "title",
+              "text": "To be *fair*",
+              "x": 960,
+              "y": 220,
+              "size": 96,
+              "hl": "green"
+            },
+            {
+              "type": "lower",
+              "text": "The buyers are hugely profitable",
+              "x": 110,
+              "y": 560,
+              "color": "green",
+              "at": "profitable"
+            },
+            {
+              "type": "lower",
+              "text": "Real customers pay for AI",
+              "x": 110,
+              "y": 700,
+              "color": "green",
+              "at": "real people"
+            },
+            {
+              "type": "lower",
+              "text": "Circular deals may spread risk",
+              "x": 110,
+              "y": 840,
+              "color": "green",
+              "at": "spread risk"
+            }
+          ]
+        },
+        {
+          "text": "The real question isn't whether AI is useful. It clearly is. The question is whether the money flowing in a circle is being mistaken for money flowing in from customers.",
+          "elements": [
+            {
+              "type": "shot",
+              "q": "artificial intelligence robot hand",
+              "pick": 1,
+              "dim": 0.5,
+              "url": "https://cdn.pixabay.com/video/2026/04/03/344232_large.mp4",
+              "clipSeconds": 8,
+              "credit": "Pixabay #344232 by MrWashingt0n",
+              "thumb": "https://cdn.pixabay.com/video/2026/04/03/344232_large.jpg",
+              "kind": "video"
+            },
+            {
+              "type": "title",
+              "text": "Is AI useful? *Yes.*",
+              "x": 960,
+              "y": 380,
+              "size": 100,
+              "hl": "green",
+              "until_at": "mistaken"
+            },
+            {
+              "type": "title",
+              "text": "Circle money, or *customer* money?",
+              "x": 960,
+              "y": 560,
+              "size": 96,
+              "at": "mistaken"
+            }
+          ]
+        },
+        {
+          "chapter": "How a bubble actually pops",
+          "text": "So how does a bubble actually pop? Here's the simple math. Say investors expect a company to earn ten dollars per share next year, and they're excited, so they pay thirty times that. The stock is three hundred dollars. Now the forecast drops to eight dollars, and investors get nervous, so they'll only pay twenty times earnings. The stock falls to one hundred sixty. That's nearly half its value gone, even though the company is still making a lot of money.",
+          "elements": [
+            {
+              "type": "panel"
+            },
+            {
+              "type": "title",
+              "text": "How a bubble *pops*",
+              "x": 960,
+              "y": 120,
+              "size": 80
+            },
+            {
+              "type": "title",
+              "text": "expected profit × excitement = price",
+              "x": 960,
+              "y": 270,
+              "size": 50,
+              "upper": false,
+              "at": "simple math"
+            },
+            {
+              "type": "title",
+              "text": "$10 × 30 = *$300*",
+              "x": 960,
+              "y": 450,
+              "size": 110,
+              "hl": "green",
+              "at": "ten dollars"
+            },
+            {
+              "type": "title",
+              "text": "$8 × 20 = *$160*",
+              "x": 960,
+              "y": 620,
+              "size": 110,
+              "hl": "red",
+              "at": "eight dollars"
+            },
+            {
+              "type": "stat",
+              "value": 47,
+              "x": 960,
+              "y": 870,
+              "prefix": "-",
+              "suffix": "%",
+              "label": "while still very profitable",
+              "color": "red",
+              "size": 120,
+              "w": 800,
+              "at": "nearly half"
+            }
+          ]
+        },
+        {
+          "text": "That's what happened to Intel in October. One weak forecast, and the price investors were willing to pay collapsed in a single day. When both the expected profits and the excitement drop at the same time, prices fall much faster than the business itself.",
+          "elements": [
+            {
+              "type": "shot",
+              "img": "Intel headquarters",
+              "pick": 1,
+              "dim": 0.4,
+              "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/2200_Mission_College_Boulevard.jpg/3840px-2200_Mission_College_Boulevard.jpg",
+              "credit": "\"2200 Mission College Boulevard\" by Coolcaesar, CC BY-SA 4.0, via wikimedia",
+              "thumb": "https://api.openverse.org/v1/images/89f455ff-a0b8-47c4-87ee-deaf0c043512/thumb/",
+              "kind": "image"
+            },
+            {
+              "type": "lower",
+              "text": "Intel · Oct 30",
+              "x": 110,
+              "y": 110
+            },
+            {
+              "type": "title",
+              "text": "One weak *forecast*",
+              "x": 960,
+              "y": 360,
+              "size": 100,
+              "at": "weak forecast"
+            },
+            {
+              "type": "stat",
+              "value": 28.6,
+              "x": 960,
+              "y": 640,
+              "prefix": "-",
+              "suffix": "%",
+              "decimals": 1,
+              "label": "in a single day",
+              "color": "red",
+              "w": 800,
+              "size": 170,
+              "at": "single day"
+            },
+            {
+              "type": "caption",
+              "text": "when profit hopes and excitement drop together, prices fall fast",
+              "x": 960,
+              "y": 900,
+              "size": 40,
+              "at": "both"
+            }
+          ]
+        },
+        {
+          "chapter": "Two ways this ends",
+          "text": "So there are really two ways this ends. The soft landing: AI revenue keeps growing fast, spending slows down gradually, and the loop turns into a real business. Some companies lose money, but the industry survives and grows into its spending.",
+          "elements": [
+            {
+              "type": "shot",
+              "q": "airplane landing",
+              "pick": 2,
+              "dim": 0.45,
+              "url": "https://cdn.pixabay.com/video/2015/08/13/429-136184488_medium.mp4",
+              "clipSeconds": 34,
+              "credit": "Pixabay #429 by Vimeo-Free-Videos",
+              "thumb": "",
+              "kind": "video"
+            },
+            {
+              "type": "title",
+              "text": "Ending 1: *soft landing*",
+              "x": 960,
+              "y": 180,
+              "size": 84,
+              "hl": "green"
+            },
+            {
+              "type": "lower",
+              "text": "AI revenue keeps growing",
+              "x": 110,
+              "y": 560,
+              "color": "green",
+              "at": "keeps growing"
+            },
+            {
+              "type": "lower",
+              "text": "Spending slows gradually",
+              "x": 110,
+              "y": 700,
+              "color": "green",
+              "at": "slows down"
+            },
+            {
+              "type": "lower",
+              "text": "The industry grows into it",
+              "x": 110,
+              "y": 840,
+              "color": "green",
+              "at": "survives"
+            }
+          ]
+        },
+        {
+          "text": "The hard landing: customers don't pay enough, lenders pull back, cloud companies cancel chip orders, and the loop runs in reverse all at once. Sales that looked solid disappear, and stock prices fall far more than the actual businesses do. Which one we get depends on those three signals.",
+          "elements": [
+            {
+              "type": "shot",
+              "q": "storm clouds timelapse",
+              "dim": 0.45,
+              "url": "https://cdn.pixabay.com/video/2022/02/10/107336-676158829_large.mp4",
+              "clipSeconds": 39,
+              "credit": "Pixabay #107336 by adege",
+              "thumb": "https://cdn.pixabay.com/video/2022/02/10/107336-676158829_large.jpg",
+              "kind": "video"
+            },
+            {
+              "type": "title",
+              "text": "Ending 2: *hard landing*",
+              "x": 960,
+              "y": 180,
+              "size": 84,
+              "hl": "red"
+            },
+            {
+              "type": "lower",
+              "text": "Customers don't pay enough",
+              "x": 110,
+              "y": 480,
+              "color": "red",
+              "at": "customers"
+            },
+            {
+              "type": "lower",
+              "text": "Lenders pull back",
+              "x": 110,
+              "y": 610,
+              "color": "red",
+              "at": "lenders"
+            },
+            {
+              "type": "lower",
+              "text": "Chip orders get cancelled",
+              "x": 110,
+              "y": 740,
+              "color": "red",
+              "at": "cancel"
+            },
+            {
+              "type": "caption",
+              "text": "which ending we get depends on three signals",
+              "x": 960,
+              "y": 960,
+              "size": 44,
+              "at": "depends"
+            }
+          ]
+        },
+        {
+          "chapter": "3 signals to watch",
+          "text": "So here are the three signals to watch. Signal one: Nvidia's earnings on November seventeenth. Watch not just sales, but how much of its growth depends on customers it has also invested in.",
+          "elements": [
+            {
+              "type": "shot",
+              "img": "Nvidia headquarters",
+              "pick": 2,
+              "dim": 0.45,
+              "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Director_L%C3%AA_Nguy%E1%BB%85n_Thi%C3%AAn_Nga_and_NVIDIA_Founder_and_CEO_Jensen_Huang.jpg/3840px-Director_L%C3%AA_Nguy%E1%BB%85n_Thi%C3%AAn_Nga_and_NVIDIA_Founder_and_CEO_Jensen_Huang.jpg",
+              "credit": "\"Director Lê Nguyễn Thiên Nga and NVIDIA Founder and CEO Jensen Huang\" by VQTCS, CC BY 4.0, via wikimedia",
+              "thumb": "https://api.openverse.org/v1/images/832dd509-6c19-40dd-a465-08f2d9445bb5/thumb/",
+              "kind": "image"
+            },
+            {
+              "type": "lower",
+              "text": "Signal 1",
+              "sub": "Nvidia earnings · Nov 17",
+              "x": 110,
+              "y": 110,
+              "size": 56
+            },
+            {
+              "type": "title",
+              "text": "How much growth comes from customers it *invested in*?",
+              "x": 960,
+              "y": 560,
+              "size": 70,
+              "w": 1600,
+              "at": "invested in"
+            }
+          ]
+        },
+        {
+          "text": "Signal two: borrowing. If neoclouds and data center builders struggle to raise debt, or pay much higher interest, the loop is slowing.",
+          "elements": [
+            {
+              "type": "shot",
+              "img": "Wall Street sign",
+              "pick": 1,
+              "dim": 0.45,
+              "url": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Monochrome_wall_street_sign_%28Unsplash%29.jpg",
+              "credit": "\"File:Monochrome wall street sign (Unsplash).jpg\" by Chris Li chrisli, CC0 1.0, via wikimedia",
+              "thumb": "https://api.openverse.org/v1/images/1f32e6a0-ab76-4a4e-808f-90105facdccb/thumb/",
+              "kind": "image"
+            },
+            {
+              "type": "lower",
+              "text": "Signal 2",
+              "sub": "can the builders still borrow?",
+              "x": 110,
+              "y": 110,
+              "size": 56
+            },
+            {
+              "type": "title",
+              "text": "Higher interest = the loop *slowing*",
+              "x": 960,
+              "y": 560,
+              "size": 84,
+              "hl": "red",
+              "at": "slowing"
+            }
+          ]
+        },
+        {
+          "text": "Signal three: real revenue. Watch whether AI companies' sales from actual customers grow faster than their spending. That's the only thing that turns this from a loop into a business.",
+          "elements": [
+            {
+              "type": "shot",
+              "q": "business people meeting office",
+              "dim": 0.45,
+              "url": "https://cdn.pixabay.com/video/2015/10/16/1035-142621331_large.mp4",
+              "clipSeconds": 16,
+              "credit": "Pixabay #1035 by Coverr-Free-Footage",
+              "thumb": "https://cdn.pixabay.com/video/2015/10/16/1035-142621331_large.jpg",
+              "kind": "video"
+            },
+            {
+              "type": "lower",
+              "text": "Signal 3",
+              "sub": "real customer revenue",
+              "x": 110,
+              "y": 110,
+              "size": 56
+            },
+            {
+              "type": "title",
+              "text": "Revenue growth *>* spending growth",
+              "x": 960,
+              "y": 460,
+              "size": 84,
+              "at": "faster than",
+              "until_at": "turns this"
+            },
+            {
+              "type": "title",
+              "text": "Loop → *business*",
+              "x": 960,
+              "y": 560,
+              "size": 120,
+              "hl": "green",
+              "at": "turns this"
+            }
+          ]
+        },
+        {
+          "chapter": "What it means for you",
+          "text": "And here's why this matters even if you never buy a single tech stock. If you own an index fund, a big slice of it, roughly a third, is technology companies. Your retirement account is already riding the loop.",
+          "elements": [
+            {
+              "type": "shot",
+              "q": "person looking at phone finance app",
+              "dim": 0.45,
+              "url": "https://cdn.pixabay.com/video/2020/05/04/38084-416330724_large.mp4",
+              "clipSeconds": 8,
+              "credit": "Pixabay #38084 by mephala1980",
+              "thumb": "https://cdn.pixabay.com/video/2020/05/04/38084-416330724_large.jpg",
+              "kind": "video"
+            },
+            {
+              "type": "title",
+              "text": "Why it matters to *you*",
+              "x": 960,
+              "y": 240,
+              "size": 84
+            },
+            {
+              "type": "stat",
+              "value": 33,
+              "x": 960,
+              "y": 560,
+              "prefix": "≈ ",
+              "suffix": "%",
+              "label": "of a typical index fund is tech (roughly a third)",
+              "at": "a third"
+            },
+            {
+              "type": "caption",
+              "text": "your retirement account is already riding the loop",
+              "x": 960,
+              "y": 820,
+              "size": 48,
+              "at": "retirement"
+            }
+          ]
+        },
+        {
+          "text": "That doesn't mean panic, and this isn't financial advice. It means know what you own, and understand that part of the AI boom is real growth, and part of it is the same money going around.",
+          "elements": [
+            {
+              "type": "shot",
+              "q": "sunrise calm city",
+              "dim": 0.45,
+              "url": "https://cdn.pixabay.com/video/2024/10/03/234452_large.mp4",
+              "clipSeconds": 59,
+              "credit": "Pixabay #234452 by Engin_Akyurt",
+              "thumb": "https://cdn.pixabay.com/video/2024/10/03/234452_large.jpg",
+              "kind": "video"
+            },
+            {
+              "type": "title",
+              "text": "Don't *panic*",
+              "x": 960,
+              "y": 380,
+              "size": 110,
+              "hl": "green",
+              "at": "panic"
+            },
+            {
+              "type": "caption",
+              "text": "not financial advice",
+              "x": 960,
+              "y": 500,
+              "size": 36,
+              "opacity": 0.7,
+              "at": "panic"
+            },
+            {
+              "type": "title",
+              "text": "Know what you *own*",
+              "x": 960,
+              "y": 640,
+              "size": 110,
+              "at": "know what you own"
+            }
+          ]
+        },
+        {
+          "text": "One practical step: open your retirement or investment account and look at the top holdings. If the same handful of tech names fills the top of the list in every fund you own, you're more concentrated in this one story than you might think. Knowing that is the first step, whatever you decide to do about it.",
+          "elements": [
+            {
+              "type": "shot",
+              "q": "person laptop investment chart",
+              "dim": 0.45,
+              "url": "https://cdn.pixabay.com/video/2023/01/30/148596-794221551_large.mp4",
+              "clipSeconds": 21,
+              "credit": "Pixabay #148596 by Domka_1611",
+              "thumb": "https://cdn.pixabay.com/video/2023/01/30/148596-794221551_large.jpg",
+              "kind": "video"
+            },
+            {
+              "type": "lower",
+              "text": "One practical step",
+              "x": 110,
+              "y": 110,
+              "color": "yellow"
+            },
+            {
+              "type": "title",
+              "text": "Check your funds' *top holdings*",
+              "x": 960,
+              "y": 480,
+              "size": 96,
+              "at": "top holdings"
+            },
+            {
+              "type": "caption",
+              "text": "same few tech names everywhere? you're more concentrated than you think",
+              "x": 960,
+              "y": 660,
+              "size": 46,
+              "at": "handful"
+            }
+          ]
+        },
+        {
+          "chapter": "The takeaway",
+          "text": "So, the AI money loop: chip makers fund AI labs, AI labs rent from cloud companies, cloud companies buy chips, and debt keeps the wheel spinning. As long as customers keep paying more, it holds. If they don't, the loop is where the cracks will show first.",
+          "elements": [
+            {
+              "type": "panel"
+            },
+            {
+              "type": "loop",
+              "nodes": [
+                {
+                  "label": "CHIP MAKER",
+                  "sub": "Nvidia · AMD",
+                  "color": "blue"
+                },
+                {
+                  "label": "AI LAB",
+                  "sub": "OpenAI",
+                  "color": "green"
+                },
+                {
+                  "label": "CLOUD",
+                  "sub": "Oracle · CoreWeave",
+                  "color": "yellow"
+                }
+              ],
+              "x": 960,
+              "y": 585,
+              "r": 300,
+              "labels": [
+                "invests $",
+                "rents computing",
+                "buys chips"
+              ],
+              "reveal_at": [
+                "chip makers fund",
+                "ai labs rent",
+                "cloud companies buy"
+              ]
+            },
+            {
+              "type": "title",
+              "text": "…and *debt* keeps it spinning",
+              "x": 960,
+              "y": 1000,
+              "size": 58,
+              "hl": "red",
+              "at": "debt keeps"
+            }
+          ]
+        },
+        {
+          "text": "Next time, we'll follow another hidden money machine. Subscribe so you don't miss it, and tell me in the comments: do you think this is a bubble, or the beginning of something real?",
+          "elements": [
+            {
+              "type": "shot",
+              "q": "people walking city street",
+              "dim": 0.45,
+              "url": "https://cdn.pixabay.com/video/2023/07/26/173333-849202521_large.mp4",
+              "clipSeconds": 19,
+              "credit": "Pixabay #173333 by TahaImtiaz16",
+              "thumb": "https://cdn.pixabay.com/video/2023/07/26/173333-849202521_large.jpg",
+              "kind": "video"
+            },
+            {
+              "type": "title",
+              "text": "*Subscribe*",
+              "x": 960,
+              "y": 420,
+              "size": 130,
+              "at": "subscribe"
+            },
+            {
+              "type": "title",
+              "text": "Bubble, or something *real*?",
+              "x": 960,
+              "y": 640,
+              "size": 84,
+              "at": "comments"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

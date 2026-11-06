@@ -1,0 +1,497 @@
+{
+  "voice": "en-US-AndrewNeural",
+  "rate": "+2%",
+  "music": {
+    "url": "https://incompetech.com/music/royalty-free/mp3-royaltyfree/Investigations.mp3",
+    "volume": 0.07,
+    "credit": "\"Investigations\" Kevin MacLeod (incompetech.com), licensed under Creative Commons: By Attribution 4.0"
+  },
+  "countdown": 360,
+  "ticker": [
+    "INTEL −28.6% IN ONE DAY (OCT 30)",
+    "CHIP STOCKS ≈ −$1 TRILLION IN DAYS (EST.)",
+    "BIG TECH AI SPENDING 2026: $700B+",
+    "OPENAI COMPUTE COMMITMENTS ≈ $1.4 TRILLION",
+    "NVIDIA EARNINGS: NOV 17"
+  ],
+  "outputs": [
+    {
+      "name": "AI_Money_Loop_6min_FIRST_MINUTE",
+      "format": "long",
+      "engine": "doc",
+      "scenes": [
+        {
+          "text": "One trillion dollars. Gone, in just a few days. That's how much chip stocks lost at the end of October. And Intel fell almost thirty percent, in a single day.",
+          "elements": [
+            {
+              "type": "shot",
+              "q": "stock market sell-off red",
+              "pixabay_id": 338956,
+              "dim": 0.45,
+              "url": "https://cdn.pixabay.com/video/2026/03/08/338956_large.mp4",
+              "clipSeconds": 8,
+              "credit": "Pixabay #338956 by MrWashingt0n",
+              "thumb": "https://cdn.pixabay.com/video/2026/03/08/338956_large.jpg",
+              "kind": "video"
+            },
+            {
+              "type": "slam",
+              "text": "$1 TRILLION",
+              "color": "red",
+              "size": 320,
+              "at": "one trillion",
+              "until_at": "gone"
+            },
+            {
+              "type": "shot",
+              "q": "stock exchange trading board",
+              "at": "gone",
+              "move": "in",
+              "dim": 0.5,
+              "url": "https://cdn.pixabay.com/video/2024/03/15/204306-923909642_large.mp4",
+              "clipSeconds": 14,
+              "credit": "Pixabay #204306 by Natures_Embrace",
+              "thumb": "https://cdn.pixabay.com/video/2024/03/15/204306-923909642_large.jpg",
+              "kind": "video"
+            },
+            {
+              "type": "slam",
+              "text": "GONE.",
+              "size": 360,
+              "at": "gone",
+              "until_at": "that's how"
+            },
+            {
+              "type": "shot",
+              "img": "New York Stock Exchange",
+              "at": "that's how",
+              "move": "left",
+              "dim": 0.35,
+              "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/New_York_Stock_Exchange_August_2017_02.jpg/3840px-New_York_Stock_Exchange_August_2017_02.jpg",
+              "credit": "\"New York Stock Exchange August 2017 02\" by Arild Vågen, CC BY-SA 4.0, via wikimedia",
+              "thumb": "https://api.openverse.org/v1/images/42a02058-d721-467b-8e25-8b1b75f29adf/thumb/",
+              "kind": "image"
+            },
+            {
+              "type": "lower",
+              "text": "Late October 2026",
+              "sub": "AI chip stocks",
+              "x": 110,
+              "y": 150,
+              "at": "that's how"
+            },
+            {
+              "type": "stat",
+              "value": 1,
+              "x": 960,
+              "y": 540,
+              "prefix": "-$",
+              "suffix": " TRILLION",
+              "label": "chip stocks, in days (estimates)",
+              "color": "red",
+              "at": "chip stocks",
+              "until_at": "intel"
+            },
+            {
+              "type": "shot",
+              "img": "Intel headquarters",
+              "at": "intel",
+              "move": "right",
+              "dim": 0.3,
+              "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Intel_Headquarters_in_2023.jpg/3840px-Intel_Headquarters_in_2023.jpg",
+              "credit": "\"Intel Headquarters in 2023\" by Coolcaesar, CC BY-SA 4.0, via wikimedia",
+              "thumb": "https://api.openverse.org/v1/images/eecbcb54-06d4-49f4-9d15-f211c571d07e/thumb/",
+              "kind": "image"
+            },
+            {
+              "type": "headline",
+              "source": "CNBC · Oct 29, 2026",
+              "text": "Intel stock plunges as chipmaker issues weak forecast",
+              "x": 960,
+              "y": 400,
+              "at": "intel",
+              "w": 1150
+            },
+            {
+              "type": "stat",
+              "value": 28.6,
+              "x": 960,
+              "y": 780,
+              "prefix": "-",
+              "suffix": "%",
+              "decimals": 1,
+              "label": "Intel, in one day",
+              "color": "red",
+              "w": 760,
+              "size": 140,
+              "at": "thirty percent"
+            }
+          ]
+        },
+        {
+          "text": "But the real story is where that money came from. Because some of it travels in a circle.",
+          "elements": [
+            {
+              "type": "shot",
+              "q": "money counting dollar bills",
+              "dim": 0.3,
+              "url": "https://cdn.pixabay.com/video/2023/03/06/153460-805688493_large.mp4",
+              "clipSeconds": 9,
+              "credit": "Pixabay #153460 by 34168960",
+              "thumb": "https://cdn.pixabay.com/video/2023/03/06/153460-805688493_large.jpg",
+              "kind": "video"
+            },
+            {
+              "type": "title",
+              "text": "The real story is *where it came from*",
+              "x": 960,
+              "y": 520,
+              "size": 86,
+              "until_at": "circle"
+            },
+            {
+              "type": "shot",
+              "q": "cash flow bank transfer money",
+              "at": "travels",
+              "move": "left",
+              "dim": 0.4,
+              "url": "https://cdn.pixabay.com/video/2019/01/20/20857-312437286_large.mp4",
+              "clipSeconds": 23,
+              "credit": "Pixabay #20857 by RoyBuri",
+              "thumb": "https://cdn.pixabay.com/video/2019/01/20/20857-312437286_large.jpg",
+              "kind": "video"
+            },
+            {
+              "type": "title",
+              "text": "Some of it travels in a *circle*",
+              "x": 960,
+              "y": 520,
+              "size": 100,
+              "at": "circle"
+            }
+          ]
+        },
+        {
+          "text": "This is the AI money loop, explained in six minutes.",
+          "elements": [
+            {
+              "type": "panel"
+            },
+            {
+              "type": "loop",
+              "nodes": [
+                {
+                  "label": "CHIP MAKER",
+                  "sub": "Nvidia · AMD",
+                  "color": "blue"
+                },
+                {
+                  "label": "AI LAB",
+                  "sub": "OpenAI",
+                  "color": "green"
+                },
+                {
+                  "label": "CLOUD",
+                  "sub": "Oracle · CoreWeave",
+                  "color": "yellow"
+                }
+              ],
+              "x": 960,
+              "y": 500,
+              "r": 290,
+              "labels": null,
+              "reveal": [
+                0.1,
+                0.5,
+                0.9
+              ]
+            },
+            {
+              "type": "title",
+              "text": "The AI *money loop*",
+              "x": 960,
+              "y": 960,
+              "size": 70,
+              "at": "money loop",
+              "hl": "yellow"
+            }
+          ]
+        },
+        {
+          "text": "It starts with spending. Microsoft, Alphabet, Amazon and Meta are on track to spend more than seven hundred billion dollars this year, mostly on data centers and the chips inside them.",
+          "elements": [
+            {
+              "type": "shot",
+              "q": "data center server room",
+              "dim": 0.35,
+              "url": "https://cdn.pixabay.com/video/2026/10/02/380334_large.mp4",
+              "clipSeconds": 8,
+              "credit": "Pixabay #380334 by MrWashingt0n",
+              "thumb": "https://cdn.pixabay.com/video/2026/10/02/380334_large.jpg",
+              "kind": "video"
+            },
+            {
+              "type": "title",
+              "text": "It starts with *spending*",
+              "x": 960,
+              "y": 520,
+              "size": 100,
+              "until_at": "microsoft"
+            },
+            {
+              "type": "shot",
+              "img": "Microsoft headquarters Redmond",
+              "at": "microsoft",
+              "move": "left",
+              "dim": 0.3,
+              "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Building92microsoft.jpg/3840px-Building92microsoft.jpg",
+              "credit": "\"File:Building92microsoft.jpg\" by Coolcaesar, CC BY-SA 4.0, via wikimedia",
+              "thumb": "https://api.openverse.org/v1/images/a8963624-3f69-47fc-982f-00dff4f46227/thumb/",
+              "kind": "image"
+            },
+            {
+              "type": "lower",
+              "text": "Microsoft",
+              "x": 110,
+              "y": 860,
+              "at": "microsoft",
+              "until_at": "alphabet"
+            },
+            {
+              "type": "shot",
+              "img": "Googleplex",
+              "at": "alphabet",
+              "move": "right",
+              "dim": 0.3,
+              "url": "https://upload.wikimedia.org/wikipedia/commons/3/32/Googleplex_HQ_%28cropped%29.jpg",
+              "credit": "\"Googleplex HQ (cropped)\" by The Pancake of Heaven!, CC BY-SA 4.0, via wikimedia",
+              "thumb": "https://api.openverse.org/v1/images/85a2e487-6d81-4001-96b3-2648eec50477/thumb/",
+              "kind": "image"
+            },
+            {
+              "type": "lower",
+              "text": "Alphabet",
+              "x": 110,
+              "y": 860,
+              "at": "alphabet",
+              "until_at": "amazon"
+            },
+            {
+              "type": "shot",
+              "img": "Amazon Spheres Seattle",
+              "at": "amazon",
+              "move": "left",
+              "dim": 0.3,
+              "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/2024-12-21%2C_Amazon_Spheres_%28Seattle%29%2C_170559.jpg/3840px-2024-12-21%2C_Amazon_Spheres_%28Seattle%29%2C_170559.jpg",
+              "credit": "\"2024-12-21, Amazon Spheres (Seattle), 170559\" by Steven Pavlov, CC BY-SA 4.0, via wikimedia",
+              "thumb": "https://api.openverse.org/v1/images/0223f13d-a1c0-46f0-92b6-cf1410742909/thumb/",
+              "kind": "image"
+            },
+            {
+              "type": "lower",
+              "text": "Amazon",
+              "x": 110,
+              "y": 860,
+              "at": "amazon",
+              "until_at": "meta are"
+            },
+            {
+              "type": "shot",
+              "img": "Meta headquarters Menlo Park",
+              "at": "meta are",
+              "move": "right",
+              "dim": 0.3,
+              "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Meta_Platforms_Headquarters_Menlo_Park_California.jpg/3840px-Meta_Platforms_Headquarters_Menlo_Park_California.jpg",
+              "credit": "\"Meta Platforms Headquarters Menlo Park California\" by LPS.1, CC0 1.0, via wikimedia",
+              "thumb": "https://api.openverse.org/v1/images/b33ff932-f665-4e87-ae66-464ce247a7fc/thumb/",
+              "kind": "image"
+            },
+            {
+              "type": "lower",
+              "text": "Meta",
+              "x": 110,
+              "y": 860,
+              "at": "meta are",
+              "until_at": "seven hundred"
+            },
+            {
+              "type": "shot",
+              "q": "server racks data center lights",
+              "at": "seven hundred",
+              "dim": 0.4,
+              "url": "https://cdn.pixabay.com/video/2018/03/09/14900-259623335_large.mp4",
+              "clipSeconds": 24,
+              "credit": "Pixabay #14900 by cipnt",
+              "thumb": "https://cdn.pixabay.com/video/2018/03/09/14900-259623335_large.jpg",
+              "kind": "video"
+            },
+            {
+              "type": "stat",
+              "value": 700,
+              "x": 960,
+              "y": 480,
+              "prefix": "$",
+              "suffix": "B+",
+              "label": "Big Tech spending, 2026",
+              "at": "seven hundred"
+            },
+            {
+              "type": "shot",
+              "q": "computer chip macro",
+              "at": "chips inside",
+              "dim": 0.45,
+              "url": "https://cdn.pixabay.com/video/2017/12/18/13461-248644882_large.mp4",
+              "clipSeconds": 11,
+              "credit": "Pixabay #13461 by onijake",
+              "thumb": "https://cdn.pixabay.com/video/2017/12/18/13461-248644882_large.jpg",
+              "kind": "video"
+            },
+            {
+              "type": "caption",
+              "text": "mostly data centers, and the chips inside them",
+              "x": 960,
+              "y": 720,
+              "size": 46,
+              "at": "data centers"
+            }
+          ]
+        },
+        {
+          "text": "And a big share of that money flows to one company: the one that makes the chips.",
+          "elements": [
+            {
+              "type": "shot",
+              "q": "computer chip macro",
+              "pick": 2,
+              "dim": 0.4,
+              "url": "https://cdn.pixabay.com/video/2020/12/29/60574-495673902_large.mp4",
+              "clipSeconds": 7,
+              "credit": "Pixabay #60574 by Danil_Shostak",
+              "thumb": "https://cdn.pixabay.com/video/2020/12/29/60574-495673902_large.jpg",
+              "kind": "video"
+            },
+            {
+              "type": "title",
+              "text": "A big share flows to *one company*",
+              "x": 960,
+              "y": 520,
+              "size": 88,
+              "until_at": "makes the chips"
+            },
+            {
+              "type": "shot",
+              "img": "Nvidia headquarters",
+              "at": "makes the chips",
+              "move": "in",
+              "dim": 0.35,
+              "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/NVIDIA_Headquarters.jpg/3840px-NVIDIA_Headquarters.jpg",
+              "credit": "\"NVIDIA Headquarters\" by Coolcaesar, CC BY-SA 4.0, via wikimedia",
+              "thumb": "https://api.openverse.org/v1/images/617cd75a-b4de-4e8b-b049-7c31683011d5/thumb/",
+              "kind": "image"
+            },
+            {
+              "type": "title",
+              "text": "The *chip maker*",
+              "x": 960,
+              "y": 860,
+              "size": 96,
+              "at": "makes the chips"
+            }
+          ]
+        },
+        {
+          "text": "Nvidia makes the chips most of the world's AI runs on. That's how it became one of the most valuable companies on Earth. And here's the twist: Nvidia also invests in its own customers.",
+          "elements": [
+            {
+              "type": "shot",
+              "img": "Jensen Huang",
+              "pick": 1,
+              "dim": 0.35,
+              "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Jensen_huang_stanford_2026-04-30_029.jpg/3840px-Jensen_huang_stanford_2026-04-30_029.jpg",
+              "credit": "\"Jensen huang stanford 2026-04-30 029\" by Anderseidesvik, CC BY-SA 4.0, via wikimedia",
+              "thumb": "https://api.openverse.org/v1/images/3e563938-192b-41d9-9088-7ef1382380c0/thumb/",
+              "kind": "image"
+            },
+            {
+              "type": "lower",
+              "text": "Nvidia",
+              "sub": "the chips most AI runs on",
+              "x": 110,
+              "y": 150
+            },
+            {
+              "type": "shot",
+              "q": "circuit board technology",
+              "at": "most valuable",
+              "dim": 0.45,
+              "url": "https://cdn.pixabay.com/video/2023/08/19/176794-856056410_large.mp4",
+              "clipSeconds": 30,
+              "credit": "Pixabay #176794 by olenchic",
+              "thumb": "https://cdn.pixabay.com/video/2023/08/19/176794-856056410_large.jpg",
+              "kind": "video"
+            },
+            {
+              "type": "title",
+              "text": "One of the most *valuable* companies on Earth",
+              "x": 960,
+              "y": 520,
+              "size": 80,
+              "at": "most valuable",
+              "until_at": "twist"
+            },
+            {
+              "type": "shot",
+              "img": "Nvidia headquarters",
+              "at": "twist",
+              "pick": 1,
+              "dim": 0.45,
+              "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/2788-2888_San_Tomas_Expwy.jpg/3840px-2788-2888_San_Tomas_Expwy.jpg",
+              "credit": "\"2788-2888 San Tomas Expwy\" by Coolcaesar, CC BY-SA 4.0, via wikimedia",
+              "thumb": "https://api.openverse.org/v1/images/eab565ce-25be-459b-ac02-8441d11fde6f/thumb/",
+              "kind": "image"
+            },
+            {
+              "type": "title",
+              "text": "The *twist*",
+              "x": 960,
+              "y": 420,
+              "size": 120,
+              "hl": "red",
+              "at": "twist"
+            },
+            {
+              "type": "caption",
+              "text": "Nvidia also invests in its own customers",
+              "x": 960,
+              "y": 580,
+              "size": 56,
+              "at": "invests"
+            }
+          ]
+        },
+        {
+          "text": "Let's follow the money.",
+          "elements": [
+            {
+              "type": "shot",
+              "q": "money counting dollar bills",
+              "dim": 0.35,
+              "url": "https://cdn.pixabay.com/video/2023/03/06/153460-805688493_large.mp4",
+              "clipSeconds": 9,
+              "credit": "Pixabay #153460 by 34168960",
+              "thumb": "https://cdn.pixabay.com/video/2023/03/06/153460-805688493_large.jpg",
+              "kind": "video"
+            },
+            {
+              "type": "title",
+              "text": "Let's follow the *money*",
+              "x": 960,
+              "y": 520,
+              "size": 120
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
